@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="24eb8ed7-8d20-4bf1-bfa9-60684bc46123" Name="Generic_Adapter" Version="16Sept2013" xmlns="avm">
+  <DomainModel xmlns:q1="manufacturing" xsi:type="q1:ManufacturingModel" Author="" Notes="" xmlns="">
+    <Parameter Name="procurement__cots_or_parametric">
+      <Value>
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__make_or_buy">
+      <Value>
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer">
+      <Value>
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer_part_description">
+      <Value>
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer_part_number">
+      <Value>
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__nsn">
+      <Value>
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__breakpoint_graph__dependents__acceleration">
+      <Value>
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__breakpoint_graph__independent__frequency">
+      <Value>
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__damping_ratio">
+      <Value>
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__duration">
+      <Value>
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__max_amplitude_zero_to_peak">
+      <Value>
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__rrs_shape">
+      <Value>
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__shape">
+      <Value>
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__shock_qualification_type">
+      <Value>
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__specifications_met">
+      <Value>
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__time_graph__dependents__acceleration">
+      <Value>
+        <ValueExpression xmlns:q17="avm" xsi:type="q17:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__time_graph__independent__time">
+      <Value>
+        <ValueExpression xmlns:q18="avm" xsi:type="q18:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__operating_temperature_high">
+      <Value>
+        <ValueExpression xmlns:q19="avm" xsi:type="q19:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__operating_temperature_low">
+      <Value>
+        <ValueExpression xmlns:q20="avm" xsi:type="q20:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__specifications_met">
+      <Value>
+        <ValueExpression xmlns:q21="avm" xsi:type="q21:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__storage_temperature_high">
+      <Value>
+        <ValueExpression xmlns:q22="avm" xsi:type="q22:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__storage_temperature_low">
+      <Value>
+        <ValueExpression xmlns:q23="avm" xsi:type="q23:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__breakpoint_graph__dependents__acceleration">
+      <Value>
+        <ValueExpression xmlns:q24="avm" xsi:type="q24:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__breakpoint_graph__independent__frequency">
+      <Value>
+        <ValueExpression xmlns:q25="avm" xsi:type="q25:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__frequency_range">
+      <Value>
+        <ValueExpression xmlns:q26="avm" xsi:type="q26:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__max_amplitude_rms">
+      <Value>
+        <ValueExpression xmlns:q27="avm" xsi:type="q27:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__max_amplitude_zero_to_peak">
+      <Value>
+        <ValueExpression xmlns:q28="avm" xsi:type="q28:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__specifications_met">
+      <Value>
+        <ValueExpression xmlns:q29="avm" xsi:type="q29:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__vibration_qualification_type">
+      <Value>
+        <ValueExpression xmlns:q30="avm" xsi:type="q30:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_NRE__currency">
+      <Value>
+        <ValueExpression xmlns:q31="avm" xsi:type="q31:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_NRE__value">
+      <Value>
+        <ValueExpression xmlns:q32="avm" xsi:type="q32:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_per_orderable_unit__currency">
+      <Value>
+        <ValueExpression xmlns:q33="avm" xsi:type="q33:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_per_orderable_unit__value">
+      <Value>
+        <ValueExpression xmlns:q34="avm" xsi:type="q34:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_tooling__currency">
+      <Value>
+        <ValueExpression xmlns:q35="avm" xsi:type="q35:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_tooling__value">
+      <Value>
+        <ValueExpression xmlns:q36="avm" xsi:type="q36:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_leadtime">
+      <Value>
+        <ValueExpression xmlns:q37="avm" xsi:type="q37:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_basis_part_cost">
+      <Value>
+        <ValueExpression xmlns:q38="avm" xsi:type="q38:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_NRE__currency">
+      <Value>
+        <ValueExpression xmlns:q39="avm" xsi:type="q39:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_NRE__value">
+      <Value>
+        <ValueExpression xmlns:q40="avm" xsi:type="q40:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_per_orderable_unit__currency">
+      <Value>
+        <ValueExpression xmlns:q41="avm" xsi:type="q41:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_per_orderable_unit__value">
+      <Value>
+        <ValueExpression xmlns:q42="avm" xsi:type="q42:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_tooling__currency">
+      <Value>
+        <ValueExpression xmlns:q43="avm" xsi:type="q43:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_tooling__value">
+      <Value>
+        <ValueExpression xmlns:q44="avm" xsi:type="q44:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_leadtime">
+      <Value>
+        <ValueExpression xmlns:q45="avm" xsi:type="q45:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_basis_part_cost">
+      <Value>
+        <ValueExpression xmlns:q46="avm" xsi:type="q46:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__orderable_unit__quantity_parts_per_unit">
+      <Value>
+        <ValueExpression xmlns:q47="avm" xsi:type="q47:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__country_name">
+      <Value>
+        <ValueExpression xmlns:q48="avm" xsi:type="q48:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__state_region_name">
+      <Value>
+        <ValueExpression xmlns:q49="avm" xsi:type="q49:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__street_name">
+      <Value>
+        <ValueExpression xmlns:q50="avm" xsi:type="q50:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__street_number">
+      <Value>
+        <ValueExpression xmlns:q51="avm" xsi:type="q51:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__town_city_name">
+      <Value>
+        <ValueExpression xmlns:q52="avm" xsi:type="q52:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__zip_postal_code">
+      <Value>
+        <ValueExpression xmlns:q53="avm" xsi:type="q53:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__dunnage">
+      <Value>
+        <ValueExpression xmlns:q54="avm" xsi:type="q54:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__fob">
+      <Value>
+        <ValueExpression xmlns:q55="avm" xsi:type="q55:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping__condition_shipping">
+      <Value>
+        <ValueExpression xmlns:q56="avm" xsi:type="q56:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping__mass_shipping_condition">
+      <Value>
+        <ValueExpression xmlns:q57="avm" xsi:type="q57:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping_dry">
+      <Value>
+        <ValueExpression xmlns:q58="avm" xsi:type="q58:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping_wet">
+      <Value>
+        <ValueExpression xmlns:q59="avm" xsi:type="q59:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__msds">
+      <Value>
+        <ValueExpression xmlns:q60="avm" xsi:type="q60:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__height">
+      <Value>
+        <ValueExpression xmlns:q61="avm" xsi:type="q61:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__length">
+      <Value>
+        <ValueExpression xmlns:q62="avm" xsi:type="q62:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__width">
+      <Value>
+        <ValueExpression xmlns:q63="avm" xsi:type="q63:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipping_cost__currency">
+      <Value>
+        <ValueExpression xmlns:q64="avm" xsi:type="q64:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipping_cost__value">
+      <Value>
+        <ValueExpression xmlns:q65="avm" xsi:type="q65:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier">
+      <Value>
+        <ValueExpression xmlns:q66="avm" xsi:type="q66:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier_part_description">
+      <Value>
+        <ValueExpression xmlns:q67="avm" xsi:type="q67:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier_part_number">
+      <Value>
+        <ValueExpression xmlns:q68="avm" xsi:type="q68:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <DomainModel xmlns:q69="cad" xsi:type="q69:CADModel" UsesResource="cad.path" Notes="" xmlns="">
+    <Datum xsi:type="q69:Plane" ID="cad.RIGHT" PortMap="" DatumName="RIGHT" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.TOP" PortMap="" DatumName="TOP" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.FRONT" PortMap="" DatumName="FRONT" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:CoordinateSystem" ID="cad.PRT_CSYS_DEF" PortMap="" DatumName="PRT_CSYS_DEF" />
+    <Datum xsi:type="q69:CoordinateSystem" ID="cad.CSYS_1_EXT" PortMap="" DatumName="CSYS_1_EXT" />
+    <Datum xsi:type="q69:CoordinateSystem" ID="cad.CSYS_2_EXT" PortMap="" DatumName="CSYS_2_EXT" />
+    <Datum xsi:type="q69:Point" ID="cad.POINT_2" PortMap="" DatumName="POINT_2" />
+    <Datum xsi:type="q69:Point" ID="cad.POINT_1" PortMap="" DatumName="POINT_1" />
+    <Datum xsi:type="q69:Axis" ID="cad.CENTERLINE" PortMap="" DatumName="CENTERLINE" />
+    <Datum xsi:type="q69:Plane" ID="cad.CIRCLE_START_PLANE" PortMap="" DatumName="CIRCLE_START_PLANE" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.MNT_PLN_2" PortMap="" DatumName="MNT_PLN_2" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.MNT_PLN_1" PortMap="" DatumName="MNT_PLN_1" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.DEFAULT_1" PortMap="" DatumName="DEFAULT_1" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.CLK_PLN_1" PortMap="" DatumName="CLK_PLN_1" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Plane" ID="cad.CLK_PLN_2" PortMap="" DatumName="CLK_PLN_2" SurfaceReverseMap="" />
+    <Datum xsi:type="q69:Axis" ID="cad.AXIS_1" PortMap="" DatumName="AXIS_1" />
+    <Datum xsi:type="q69:Axis" ID="cad.AXIS_2" PortMap="" DatumName="AXIS_2" />
+    <Datum xsi:type="q69:CoordinateSystem" ID="cad.CSYS2_INT" PortMap="" DatumName="CSYS2_INT" />
+    <Datum xsi:type="q69:CoordinateSystem" ID="cad.CSYS1_INT" PortMap="" DatumName="CSYS1_INT" />
+    <Parameter Name="DESCRIPTION">
+      <Value DataType="String" Unit="" ID="cad.DESCRIPTION">
+        <ValueExpression xmlns:q70="avm" xsi:type="q70:FixedValue">
+          <Value>extrusion_bar_round__generic__steel_1018_3p7x0p038</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="MODELED_BY">
+      <Value DataType="String" Unit="" ID="cad.MODELED_BY">
+        <ValueExpression xmlns:q71="avm" xsi:type="q71:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_MOUNT_X">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_MOUNT_X">
+        <ValueExpression xmlns:q72="avm" xsi:type="q72:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_MOUNT_Y">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_MOUNT_Y">
+        <ValueExpression xmlns:q73="avm" xsi:type="q73:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_MOUNT_Z">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_MOUNT_Z">
+        <ValueExpression xmlns:q74="avm" xsi:type="q74:FixedValue">
+          <Value>300</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_DIAMETER">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_DIAMETER">
+        <ValueExpression xmlns:q75="avm" xsi:type="q75:FixedValue">
+          <Value>150</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_MOUNT_ROT_X">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_MOUNT_ROT_X">
+        <ValueExpression xmlns:q76="avm" xsi:type="q76:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_MOUNT_ROT_Y">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_MOUNT_ROT_Y">
+        <ValueExpression xmlns:q77="avm" xsi:type="q77:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="VARIABLE_MOUNT_ROT_Z">
+      <Value DataType="Real" Unit="" ID="cad.VARIABLE_MOUNT_ROT_Z">
+        <ValueExpression xmlns:q78="avm" xsi:type="q78:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="PTC_MATERIAL_NAME">
+      <Value DataType="String" Unit="" ID="cad.PTC_MATERIAL_NAME">
+        <ValueExpression xmlns:q79="avm" xsi:type="q79:FixedValue">
+          <Value>STEEL_LOW_CARBON_1018_HOT_ROLL</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="COATING_DENSITY">
+      <Value DataType="Real" Unit="" ID="cad.COATING_DENSITY">
+        <ValueExpression xmlns:q80="avm" xsi:type="q80:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="COATING_SPEC">
+      <Value DataType="String" Unit="" ID="cad.COATING_SPEC">
+        <ValueExpression xmlns:q81="avm" xsi:type="q81:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="COATING_THICKNESS">
+      <Value DataType="Real" Unit="" ID="cad.COATING_THICKNESS">
+        <ValueExpression xmlns:q82="avm" xsi:type="q82:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="COMPONENT_CLASS">
+      <Value DataType="String" Unit="" ID="cad.COMPONENT_CLASS">
+        <ValueExpression xmlns:q83="avm" xsi:type="q83:FixedValue">
+          <Value>Extrusion_Bar_Round</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="PART_MASS">
+      <Value DataType="Real" Unit="" ID="cad.PART_MASS">
+        <ValueExpression xmlns:q84="avm" xsi:type="q84:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="PART_SURFACE_AREA">
+      <Value DataType="Real" Unit="" ID="cad.PART_SURFACE_AREA">
+        <ValueExpression xmlns:q85="avm" xsi:type="q85:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="AVM_COMPONENT_ID">
+      <Value DataType="String" Unit="" ID="cad.AVM_COMPONENT_ID">
+        <ValueExpression xmlns:q86="avm" xsi:type="q86:FixedValue">
+          <Value>24eb8ed7-8d20-4bf1-bfa9-60684bc46123</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <ModelMetric Name="COATING_MASS">
+      <Value DataType="Real" Unit="" ID="cad.COATING_MASS">
+        <ValueExpression xmlns:q87="avm" xsi:type="q87:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </ModelMetric>
+    <ModelMetric Name="COATING_VOLUME">
+      <Value DataType="Real" Unit="" ID="cad.COATING_VOLUME">
+        <ValueExpression xmlns:q88="avm" xsi:type="q88:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </ModelMetric>
+    <ModelMetric Name="TOTAL_MASS">
+      <Value DataType="Real" Unit="" ID="cad.TOTAL_MASS">
+        <ValueExpression xmlns:q89="avm" xsi:type="q89:FixedValue">
+          <Value>0</Value>
+        </ValueExpression>
+      </Value>
+    </ModelMetric>
+  </DomainModel>
+  <Property xmlns:q90="avm" xsi:type="q90:PrimitiveProperty" Name="common_info__cg_location" ID="property.nv.common_info.cg_location" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="3" DataType="Real" ID="nv.common_info.cg_location">
+      <ValueExpression xsi:type="q90:FixedValue">
+        <Value>{0.0,0.0,0.0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q91="avm" xsi:type="q91:PrimitiveProperty" Name="instance_description" ID="property.nv.instance_description" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.instance_description">
+      <ValueExpression xsi:type="q91:FixedValue">
+        <Value>Exruded Steel Round Bar Stock</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q92="avm" xsi:type="q92:PrimitiveProperty" Name="common_info__overall_dimensions__width" ID="property.nv.common_info.overall_dimensions.width" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="Real" ID="nv.common_info.overall_dimensions.width">
+      <ValueExpression xsi:type="q92:FixedValue">
+        <Value>0.0381</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q93="avm" xsi:type="q93:PrimitiveProperty" Name="common_info__operating_condition_description" ID="property.nv.common_info.operating_condition_description" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.operating_condition_description">
+      <ValueExpression xsi:type="q93:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q94="avm" xsi:type="q94:PrimitiveProperty" Name="diameter" ID="property.nv.diameter" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="Real" ID="nv.diameter">
+      <ValueExpression xsi:type="q94:FixedValue">
+        <Value>0.0381</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q95="avm" xsi:type="q95:PrimitiveProperty" Name="common_info__volume" ID="property.nv.common_info.volume" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.volume">
+      <ValueExpression xsi:type="q95:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q96="avm" xsi:type="q96:PrimitiveProperty" Name="Material_Information__material_designation_avm__path" ID="property.nv.material_designation_avm.path" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.material_designation_avm.path">
+      <ValueExpression xsi:type="q96:FixedValue">
+        <Value>material_properties_domain.metallic.steel.carbon.low_carbon</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q97="avm" xsi:type="q97:PrimitiveProperty" Name="common_info__origin_description" ID="property.nv.common_info.origin_description" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.origin_description">
+      <ValueExpression xsi:type="q97:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q98="avm" xsi:type="q98:PrimitiveProperty" Name="coating_thickness" ID="property.nv.coating_thickness" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.coating_thickness">
+      <ValueExpression xsi:type="q98:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q99="avm" xsi:type="q99:PrimitiveProperty" Name="coating_specification" ID="property.nv.coating_specification" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.coating_specification">
+      <ValueExpression xsi:type="q99:FixedValue">
+        <Value>none</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q100="avm" xsi:type="q100:PrimitiveProperty" Name="common_info__orientation_description" ID="property.nv.common_info.orientation_description" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.orientation_description">
+      <ValueExpression xsi:type="q100:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q101="avm" xsi:type="q101:PrimitiveProperty" Name="coating_mass" ID="property.nv.coating_mass" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.coating_mass">
+      <ValueExpression xsi:type="q101:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q102="avm" xsi:type="q102:PrimitiveProperty" Name="common_info__surface_area" ID="property.nv.common_info.surface_area" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.surface_area">
+      <ValueExpression xsi:type="q102:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q103="avm" xsi:type="q103:PrimitiveProperty" Name="common_info__overall_dimensions__height" ID="property.nv.common_info.overall_dimensions.height" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="Real" ID="nv.common_info.overall_dimensions.height">
+      <ValueExpression xsi:type="q103:FixedValue">
+        <Value>0.0381</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q104="avm" xsi:type="q104:PrimitiveProperty" Name="coating_density" ID="property.nv.coating_density" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.coating_density">
+      <ValueExpression xsi:type="q104:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q105="avm" xsi:type="q105:PrimitiveProperty" Name="Material_Information__material_designation_avm__material_name" ID="property.nv.material_designation_avm.material_name" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.material_designation_avm.material_name">
+      <ValueExpression xsi:type="q105:FixedValue">
+        <Value>steel_low_carbon_1018_hot_roll</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q106="avm" xsi:type="q106:PrimitiveProperty" Name="common_info__moment_of_inertia" ID="property.nv.common_info.moment_of_inertia" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.moment_of_inertia">
+      <ValueExpression xsi:type="q106:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q107="avm" xsi:type="q107:PrimitiveProperty" Name="common_info__mass" ID="property.nv.common_info.mass" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.common_info.mass">
+      <ValueExpression xsi:type="q107:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q108="avm" xsi:type="q108:PrimitiveProperty" Name="additional_documentation__related_description_prose" ID="property.nv.additional_documentation.related_description_prose" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="1" DataType="String" ID="nv.additional_documentation.related_description_prose">
+      <ValueExpression xsi:type="q108:FixedValue">
+        <Value>None</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q109="avm" xsi:type="q109:PrimitiveProperty" Name="VARIABLE_MOUNT_X_mm" ID="param.d1" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d1">
+      <ValueExpression xsi:type="q109:ParametricValue">
+        <Default xsi:type="q109:FixedValue">
+          <Value>0</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q110="avm" xsi:type="q110:PrimitiveProperty" Name="VARIABLE_MOUNT_ROT_X_deg" ID="param.d5" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d5">
+      <ValueExpression xsi:type="q110:ParametricValue">
+        <Default xsi:type="q110:FixedValue">
+          <Value>0</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q111="avm" xsi:type="q111:PrimitiveProperty" Name="VARIABLE_MOUNT_Y_mm" ID="param.d2" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d2">
+      <ValueExpression xsi:type="q111:ParametricValue">
+        <Default xsi:type="q111:FixedValue">
+          <Value>0</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q112="avm" xsi:type="q112:PrimitiveProperty" Name="VARIABLE_MOUNT_ROT_Z_deg" ID="param.d7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d7">
+      <ValueExpression xsi:type="q112:ParametricValue">
+        <Default xsi:type="q112:FixedValue">
+          <Value>0</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q113="avm" xsi:type="q113:PrimitiveProperty" Name="VARIABLE_DIAMETER" ID="param.d4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d4">
+      <ValueExpression xsi:type="q113:ParametricValue">
+        <Default xsi:type="q113:FixedValue">
+          <Value>0.0381</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q114="avm" xsi:type="q114:PrimitiveProperty" Name="VARIABLE_MOUNT_ROT_Y_deg" ID="param.d6" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d6">
+      <ValueExpression xsi:type="q114:ParametricValue">
+        <Default xsi:type="q114:FixedValue">
+          <Value>0</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q115="avm" xsi:type="q115:PrimitiveProperty" Name="VARIABLE_MOUNT_Z_mm" ID="param.d3" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="d3">
+      <ValueExpression xsi:type="q115:ParametricValue">
+        <Default xsi:type="q115:FixedValue">
+          <Value>0.5</Value>
+        </Default>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Adapter.prt" Path="CAD\adapter.prt.6" Hash="" ID="cad.path" Notes="" xmlns="" />
+  <ResourceDependency Name="Resource" Path="Doc\Adapter_Component.docx" Hash="" ID="doc.path" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-80fe71f5-5eff-448b-8865-2d3a4e9deb21" ApplyJoinData="" Notes="" Name="Variable_Connector_PA" Definition="" xmlns="">
+    <Role xmlns:q116="cad" xsi:type="q116:Plane" ID="id-f985ea60-6f6c-4d94-a8ad-3ae2d2d9e64e" PortMap="" Name="XY_Plane" Notes="" Definition="" SurfaceReverseMap="" />
+    <Role xmlns:q117="cad" xsi:type="q117:Axis" ID="id-224cce23-042a-479b-9f28-fa93db8c2520" PortMap="" Name="Z_Axis" Notes="" Definition="" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-7c4bb0f4-0a57-44c7-b75e-d9aa72e5855a" ApplyJoinData="" Notes="" Name="Variable_Connector_PPA" Definition="" xmlns="">
+    <Role xmlns:q118="cad" xsi:type="q118:Plane" ID="id-280dff1d-562f-4a9d-9a5f-b8492a6874ba" PortMap="" Name="YZ_Plane" Notes="" Definition="" SurfaceReverseMap="" />
+    <Role xmlns:q119="cad" xsi:type="q119:Plane" ID="id-5ab352fd-b3d5-4487-b33c-e1e2e2de4374" PortMap="" Name="XY_Plane" Notes="" Definition="" SurfaceReverseMap="" />
+    <Role xmlns:q120="cad" xsi:type="q120:Axis" ID="id-8c822f2f-3761-40c6-ae79-408095d691e8" PortMap="" Name="Z_Axis" Notes="" Definition="" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-595bd4e1-34e9-4b3d-89a2-1bb9a9990eae" ApplyJoinData="" Notes="" Name="Ref_Connector_PA" Definition="" xmlns="">
+    <Role xmlns:q121="cad" xsi:type="q121:Plane" ID="id-8b785877-dd74-44fc-8f3d-77f1c2c97030" PortMap="" Name="XY_Plane" Notes="" Definition="" SurfaceReverseMap="" />
+    <Role xmlns:q122="cad" xsi:type="q122:Axis" ID="id-0ce43a28-4493-44ab-a615-c09afc8711cf" PortMap="" Name="Z_Axis" Notes="" Definition="" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-08f4a2d0-3493-43fc-9a7b-c558c655bf7e" ApplyJoinData="" Notes="" Name="Ref_Connector_CSYS" Definition="" xmlns="">
+    <Role xmlns:q123="cad" xsi:type="q123:CoordinateSystem" ID="id-64d3c151-59e9-418a-b36f-d0664ef77c4f" PortMap="" Name="" Notes="" Definition="" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-c3368cd5-bcd1-4b58-8ebe-5c0e481c5783" ApplyJoinData="" Notes="" Name="Ref_Connector_PPA" Definition="" xmlns="">
+    <Role xmlns:q124="cad" xsi:type="q124:Plane" ID="id-020f0354-0c7b-427d-aa0d-9a2db7c8ec68" PortMap="cad.CLK_PLN_1" Name="YZ_Plane" Notes="" Definition="" SurfaceReverseMap="" />
+    <Role xmlns:q125="cad" xsi:type="q125:Plane" ID="id-b5975cd3-dd5c-4c6e-b8fc-940d60034a22" PortMap="" Name="XY_Plane" Notes="" Definition="" SurfaceReverseMap="" />
+    <Role xmlns:q126="cad" xsi:type="q126:Axis" ID="id-9a32d1f5-8567-4ac5-b671-ff36c407a6fa" PortMap="" Name="Z_Axis" Notes="" Definition="" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-fb90f358-4d0e-4c51-91d4-5a649839c108" ApplyJoinData="" Notes="" Name="Variable_Connector_CSYS" Definition="" xmlns="">
+    <Role xmlns:q127="cad" xsi:type="q127:CoordinateSystem" ID="id-f4a9ccd4-ccc1-4748-aa6e-aa4a3a491698" PortMap="" Name="" Notes="" Definition="" />
+  </Connector>
+  <DistributionRestriction xmlns:q128="avm" xsi:type="q128:ITAR" Notes="" Level="NotITAR" xmlns="" />
+  <Classifications xmlns="">Adapter</Classifications>
+</Component>

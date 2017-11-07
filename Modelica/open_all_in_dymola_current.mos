@@ -1,0 +1,5 @@
+openModel("C2M2L_Ext/package.mo")
+cd("../")
+openModel("C2M2L_OM/package.mo")
+cd("../")
+openModel("C2M2L_CyPhy/package.mo")

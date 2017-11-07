@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0607c471-5279-4c99-a910-0b26b3ef777a" Name="FinalDrive3_25" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="modelica" xsi:type="q1:ModelicaModel" FilePathWithinResource="" Author="" Notes="" Class="C2M2L_Ext.C2M2L_Delivered_Component_Implementations.Drive_Line.Final_Drive.Example_Standalone_Final_Drive_Implementation" xmlns="">
+    <Parameter Locator="moi_rotational">
+      <Value ID="id-35355be0-6738-4a8a-a249-c439e9bb9c68">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-7db1fd1f-46d5-4b25-a9c7-917e69519093" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="J_xxyyzz">
+      <Value ID="id-42c5421c-c742-4c81-91cf-199b654d78b7">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-9621ccd2-9726-44df-a013-62e566b07dac" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="case_heat_transfer_area">
+      <Value ID="id-af125a09-7791-416b-a880-ed2d37b1d5d7">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-d985e49a-ef47-4f69-9fcb-3205a62383ab" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="case_thermal_conductivity">
+      <Value ID="id-54e7fc17-eb5c-4942-b201-cf6a81e61c0b">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-7e02cfad-c548-416f-84ff-6f804c77573a" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_01">
+      <Value ID="id-03ea4c4d-589b-4656-a3cc-fd14f21b4651">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-2ac77c28-bc87-4e05-975d-503870e86123" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="viz_height">
+      <Value ID="id-8baeddb7-c590-4a0d-9b7a-f7cdaa6041b0">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:DerivedValue" ValueSource="id-17d670db-a8b4-4367-bee5-f69985e9f33a" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="r_shape">
+      <Value ID="id-d9e32227-3c00-4065-9667-f8ea088f5bc9">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:DerivedValue" ValueSource="id-5c64132e-8fa5-444a-9498-bce47467cf2a" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_width">
+      <Value ID="id-4cb0ad54-22b3-48b1-9386-d0a38c6103a1">
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:DerivedValue" ValueSource="id-92c22b5b-6584-4c96-bb8b-e4fb7216ca67" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="case_heat_transfer_thickness">
+      <Value ID="id-d4ec27e8-5f48-480d-822d-a7a0f4cd9508">
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:DerivedValue" ValueSource="id-67cf82cb-d2c1-422c-8186-3aab8f07b1fb" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_length">
+      <Value ID="id-5368fb82-935b-4f0b-b690-0151153a183a">
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:DerivedValue" ValueSource="id-57cb57db-3b05-4fc7-9456-2b5f1a3ffae7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="c_of_g_position">
+      <Value ID="id-9becef5b-d467-4e49-91da-d076f74cd120">
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:DerivedValue" ValueSource="id-5618bbe5-6050-4027-9a8f-47f177ab79d7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_brg_02">
+      <Value ID="id-44caa929-4e12-42a9-bd4f-6dc0cffd4bbb">
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:DerivedValue" ValueSource="id-78eae8a7-5b95-4144-88b5-3012f0d9e185" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_02">
+      <Value ID="id-5c6ef5ad-bb30-4883-b0c8-900c41d70a85">
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:DerivedValue" ValueSource="id-0ffdc3b7-fc8d-425a-b62f-d9f2fcbed0d2" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_brg_01">
+      <Value ID="id-bd6f1436-5696-466a-9495-1afdf1e7a680">
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:DerivedValue" ValueSource="id-8956bb1a-4e4a-43e9-b871-1cf2b425314c" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="mass">
+      <Value ID="id-25981d29-608f-4279-84bd-b74d3996dbd9">
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:DerivedValue" ValueSource="id-ff7986e0-9a54-4723-acc9-ddcdd65d4ac3" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="has_mass">
+      <Value ID="id-35e715f9-e32e-4d4a-b736-65f48ba26d14">
+        <ValueExpression xmlns:q17="avm" xsi:type="q17:DerivedValue" ValueSource="id-b6f97b19-3364-4866-8ec9-a9d9dbdad944" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="animation">
+      <Value ID="id-f64923d6-ee3b-4788-9756-c846cf36a5c0">
+        <ValueExpression xmlns:q18="avm" xsi:type="q18:DerivedValue" ValueSource="id-907c45e0-530b-485b-a1d1-8cb5f86de964" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="lossTable">
+      <Value ID="id-1586706d-8122-4717-90e9-f1ec3a5a6d41">
+        <ValueExpression xmlns:q19="avm" xsi:type="q19:DerivedValue" ValueSource="id-0a90acb2-6126-4851-8752-4bc12fb90975" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="ratio">
+      <Value ID="id-d9a89052-8933-4849-be59-07232534c462">
+        <ValueExpression xmlns:q20="avm" xsi:type="q20:DerivedValue" ValueSource="id-ac15a6bf-aeb5-48a1-963f-295ea02204fd" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="color">
+      <Value ID="id-7b6ecef6-9fae-44da-93fc-09e439dc94b1">
+        <ValueExpression xmlns:q21="avm" xsi:type="q21:DerivedValue" ValueSource="id-241c2000-b47e-42cd-8c4b-5c06daa35d84" />
+      </Value>
+    </Parameter>
+    <Connector ID="id-f11f937d-87e2-422e-a212-f774b29061a2" PortMap="id-24d4214a-40ce-4371-a20b-0e5556bc2b5c" Name="mount_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-332ed50f-ae12-4e41-957e-e8b4e2670cd9" PortMap="id-6351188a-92ce-4073-b761-3bd5069aeb6b" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-1a9bfd70-7ab7-44e8-8abb-47fc60a33903" PortMap="id-3e8fd80c-380b-46c2-80de-42bbb4bfd097" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-4af0a677-f93b-4c93-9e42-bfb4df18b51e" PortMap="id-4b69f47d-5d64-47e4-8407-6a7d54f8d1ae" Name="outer_surface_heat_port" Notes="" Definition="" Locator="" Class="Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a" />
+    <Connector ID="id-40efb709-d338-4b4a-ba7b-a574d615dc29" PortMap="id-a01d3061-8289-4c94-953c-bf9ef9924ac4" Name="brg_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-731b6b39-ad14-4aa0-bef7-8859997898c9">
+          <ValueExpression xmlns:q22="avm" xsi:type="q22:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+    <Connector ID="id-93357cf5-7d5a-4bca-9093-459ea63698eb" PortMap="id-c2023b96-52df-49d8-ab29-137aabd5f5ec" Name="brg_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-6cf282ae-291e-4a01-af60-dcd254a31fdc">
+          <ValueExpression xmlns:q23="avm" xsi:type="q23:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+  </DomainModel>
+  <DomainModel xmlns:q24="cad" xsi:type="q24:CADModel" UsesResource="cad.path" Author="" Notes="" xmlns="">
+    <Datum xsi:type="q24:Plane" ID="id-7eacc5c8-c0a6-4470-9eb8-e402814988a0" PortMap="" Name="Power_In_Plane" Notes="" Definition="" DatumName="Power_In_Plane" />
+    <Datum xsi:type="q24:Plane" ID="id-8b5c3a65-9811-450e-93d5-ab4f8ffe8654" PortMap="id-1cb82cd1-29f8-44a6-8ce7-c1ae4ec5e89f" Name="Power_Out_Plane" Notes="" Definition="" DatumName="Power_Out_Plane" />
+    <Datum xsi:type="q24:Axis" ID="id-cd49f7e7-c3ab-485b-bf9d-1f3dd42e7830" PortMap="id-b23e029d-cb2c-41bb-b045-932478dbac08" Name="Power_In_Middle" Notes="" Definition="" DatumName="Power_In_Middle" />
+    <Datum xsi:type="q24:Axis" ID="id-1bc41b15-4c3c-438d-8389-1fd9f1b1357a" PortMap="" Name="Power_In_Outer" Notes="" Definition="" DatumName="Power_In_Outer" />
+    <Datum xsi:type="q24:Axis" ID="id-2c46fba0-8380-46e1-8bf4-98f00908b544" PortMap="" Name="Power_Out_Middle" Notes="" Definition="" DatumName="Power_Out_Middle" />
+    <Datum xsi:type="q24:Axis" ID="id-7d8480c9-3879-489c-bfed-37cd420f9db4" PortMap="id-d38ed946-12da-40d7-84c6-123a31b668f4" Name="Power_Out_Outer" Notes="" Definition="" DatumName="Power_Out_Outer" />
+  </DomainModel>
+  <Property xmlns:q25="avm" xsi:type="q25:PrimitiveProperty" Name="moi_rotational" ID="property.id-7db1fd1f-46d5-4b25-a9c7-917e69519093" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-7db1fd1f-46d5-4b25-a9c7-917e69519093">
+      <ValueExpression xsi:type="q25:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q26="avm" xsi:type="q26:PrimitiveProperty" Name="J_xxyyzz" ID="property.id-9621ccd2-9726-44df-a013-62e566b07dac" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-9621ccd2-9726-44df-a013-62e566b07dac">
+      <ValueExpression xsi:type="q26:FixedValue">
+        <Value>{0.001,0.001,0.001,0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q27="avm" xsi:type="q27:PrimitiveProperty" Name="case_heat_transfer_area" ID="property.id-d985e49a-ef47-4f69-9fcb-3205a62383ab" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-d985e49a-ef47-4f69-9fcb-3205a62383ab">
+      <ValueExpression xsi:type="q27:FixedValue">
+        <Value>1.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q28="avm" xsi:type="q28:PrimitiveProperty" Name="case_thermal_conductivity" ID="property.id-7e02cfad-c548-416f-84ff-6f804c77573a" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-7e02cfad-c548-416f-84ff-6f804c77573a">
+      <ValueExpression xsi:type="q28:FixedValue">
+        <Value>50</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q29="avm" xsi:type="q29:PrimitiveProperty" Name="transform_mount_01" ID="property.id-2ac77c28-bc87-4e05-975d-503870e86123" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-2ac77c28-bc87-4e05-975d-503870e86123">
+      <ValueExpression xsi:type="q29:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q30="avm" xsi:type="q30:PrimitiveProperty" Name="Height" ID="property.id-17d670db-a8b4-4367-bee5-f69985e9f33a" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-17d670db-a8b4-4367-bee5-f69985e9f33a">
+      <ValueExpression xsi:type="q30:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q31="avm" xsi:type="q31:PrimitiveProperty" Name="r_shape" ID="property.id-5c64132e-8fa5-444a-9498-bce47467cf2a" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5c64132e-8fa5-444a-9498-bce47467cf2a">
+      <ValueExpression xsi:type="q31:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q32="avm" xsi:type="q32:PrimitiveProperty" Name="Width" ID="property.id-92c22b5b-6584-4c96-bb8b-e4fb7216ca67" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-92c22b5b-6584-4c96-bb8b-e4fb7216ca67">
+      <ValueExpression xsi:type="q32:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q33="avm" xsi:type="q33:PrimitiveProperty" Name="case_heat_transfer_thickness" ID="property.id-67cf82cb-d2c1-422c-8186-3aab8f07b1fb" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-67cf82cb-d2c1-422c-8186-3aab8f07b1fb">
+      <ValueExpression xsi:type="q33:FixedValue">
+        <Value>0.005</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q34="avm" xsi:type="q34:PrimitiveProperty" Name="Length" ID="property.id-57cb57db-3b05-4fc7-9456-2b5f1a3ffae7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-57cb57db-3b05-4fc7-9456-2b5f1a3ffae7">
+      <ValueExpression xsi:type="q34:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q35="avm" xsi:type="q35:PrimitiveProperty" Name="c_of_g_position" ID="property.id-5618bbe5-6050-4027-9a8f-47f177ab79d7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5618bbe5-6050-4027-9a8f-47f177ab79d7">
+      <ValueExpression xsi:type="q35:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q36="avm" xsi:type="q36:PrimitiveProperty" Name="transform_brg_02" ID="property.id-78eae8a7-5b95-4144-88b5-3012f0d9e185" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-78eae8a7-5b95-4144-88b5-3012f0d9e185">
+      <ValueExpression xsi:type="q36:FixedValue">
+        <Value>[-0.1,0,0.0;1,0,0;0,-1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q37="avm" xsi:type="q37:PrimitiveProperty" Name="transform_mount_02" ID="property.id-0ffdc3b7-fc8d-425a-b62f-d9f2fcbed0d2" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-0ffdc3b7-fc8d-425a-b62f-d9f2fcbed0d2">
+      <ValueExpression xsi:type="q37:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q38="avm" xsi:type="q38:PrimitiveProperty" Name="transform_brg_01" ID="property.id-8956bb1a-4e4a-43e9-b871-1cf2b425314c" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-8956bb1a-4e4a-43e9-b871-1cf2b425314c">
+      <ValueExpression xsi:type="q38:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q39="avm" xsi:type="q39:PrimitiveProperty" Name="mass" ID="property.id-ff7986e0-9a54-4723-acc9-ddcdd65d4ac3" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-ff7986e0-9a54-4723-acc9-ddcdd65d4ac3">
+      <ValueExpression xsi:type="q39:FixedValue">
+        <Value>1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q40="avm" xsi:type="q40:PrimitiveProperty" Name="has_mass" ID="property.id-b6f97b19-3364-4866-8ec9-a9d9dbdad944" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-b6f97b19-3364-4866-8ec9-a9d9dbdad944">
+      <ValueExpression xsi:type="q40:FixedValue">
+        <Value>true</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q41="avm" xsi:type="q41:PrimitiveProperty" Name="animation" ID="property.id-907c45e0-530b-485b-a1d1-8cb5f86de964" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-907c45e0-530b-485b-a1d1-8cb5f86de964">
+      <ValueExpression xsi:type="q41:FixedValue">
+        <Value>world.enableAnimation and world.driveTrainMechanics3D</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q42="avm" xsi:type="q42:PrimitiveProperty" Name="lossTable" ID="property.id-0a90acb2-6126-4851-8752-4bc12fb90975" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-0a90acb2-6126-4851-8752-4bc12fb90975">
+      <ValueExpression xsi:type="q42:FixedValue">
+        <Value>[0,0.97,0.97,0,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q43="avm" xsi:type="q43:PrimitiveProperty" Name="ratio" ID="property.id-ac15a6bf-aeb5-48a1-963f-295ea02204fd" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-ac15a6bf-aeb5-48a1-963f-295ea02204fd">
+      <ValueExpression xsi:type="q43:FixedValue">
+        <Value>3.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q44="avm" xsi:type="q44:PrimitiveProperty" Name="color" ID="property.id-241c2000-b47e-42cd-8c4b-5c06daa35d84" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-241c2000-b47e-42cd-8c4b-5c06daa35d84">
+      <ValueExpression xsi:type="q44:FixedValue">
+        <Value>{0,128,255}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Resource" Path="304G10501" Hash="" ID="cad.path" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-308a80c2-39d6-448c-b205-ce0c7902fc2f" ApplyJoinData="" Notes="" Name="mount_02" Definition="" xmlns="">
+    <Role xmlns:q45="modelica" xsi:type="q45:Connector" ID="id-24d4214a-40ce-4371-a20b-0e5556bc2b5c" PortMap="" Name="mount_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-fb69bbb2-7fd6-496c-8a71-a72b93b61fc2" ApplyJoinData="" Notes="" Name="origin" Definition="" xmlns="">
+    <Role xmlns:q46="modelica" xsi:type="q46:Connector" ID="id-6351188a-92ce-4073-b761-3bd5069aeb6b" PortMap="" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-9a0270a1-a025-4302-aa8a-4800cd33f6ca" ApplyJoinData="" Notes="" Name="mount_01" Definition="" xmlns="">
+    <Role xmlns:q47="modelica" xsi:type="q47:Connector" ID="id-3e8fd80c-380b-46c2-80de-42bbb4bfd097" PortMap="" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-9905fa92-ae8a-4191-9420-dbbec1c9fecf" ApplyJoinData="" Notes="" Name="outer_surface_heat_port" Definition="" xmlns="">
+    <Role xmlns:q48="modelica" xsi:type="q48:Connector" ID="id-4b69f47d-5d64-47e4-8407-6a7d54f8d1ae" PortMap="" Name="outer_surface_heat_port" Notes="" Definition="" Locator="" Class="Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-ef5e1e6d-de49-4318-9c43-77d39a1fca5e" ApplyJoinData="" Notes="" Name="brg_01" Definition="" xmlns="">
+    <Role xmlns:q49="cad" xsi:type="q49:Plane" ID="id-f57171b6-e2ac-46f4-9217-6a9a70f78c35" PortMap="" Name="Mating_Plane" Notes="" Definition="" />
+    <Role xmlns:q50="cad" xsi:type="q50:Axis" ID="id-b23e029d-cb2c-41bb-b045-932478dbac08" PortMap="" Name="Middle" Notes="" Definition="" />
+    <Role xmlns:q51="cad" xsi:type="q51:Axis" ID="id-f7851166-1f38-4000-b794-2af4b05023e7" PortMap="" Name="Outer" Notes="" Definition="" />
+    <Role xmlns:q52="modelica" xsi:type="q52:Connector" ID="id-a01d3061-8289-4c94-953c-bf9ef9924ac4" PortMap="" Name="brg_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-fade6c06-f07d-45d7-9cf6-72508b5a8fa5">
+          <ValueExpression xmlns:q53="avm" xsi:type="q53:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-6906500f-f01e-4b9b-a81a-97ac66496e4f" ApplyJoinData="" Notes="" Name="brg_02" Definition="" xmlns="">
+    <Role xmlns:q54="cad" xsi:type="q54:Plane" ID="id-1cb82cd1-29f8-44a6-8ce7-c1ae4ec5e89f" PortMap="" Name="Mating_Plane" Notes="" Definition="" />
+    <Role xmlns:q55="cad" xsi:type="q55:Axis" ID="id-17417024-d648-45d4-aeea-08e741047bb0" PortMap="" Name="Middle" Notes="" Definition="" />
+    <Role xmlns:q56="cad" xsi:type="q56:Axis" ID="id-d38ed946-12da-40d7-84c6-123a31b668f4" PortMap="" Name="Outer" Notes="" Definition="" />
+    <Role xmlns:q57="modelica" xsi:type="q57:Connector" ID="id-c2023b96-52df-49d8-ab29-137aabd5f5ec" PortMap="" Name="brg_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-0190f4b3-08f9-4895-b34a-0925ceb526f7">
+          <ValueExpression xmlns:q58="avm" xsi:type="q58:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Classifications xmlns="">FinalDrive</Classifications>
+  <Classifications xmlns="" />
+</Component>

@@ -1,0 +1,38 @@
+﻿                  MASS PROPERTIES OF THE PART SUSPENSION_MOUNT
+
+                         VOLUME =  4.9087385e+07 MM^3
+                   SURFACE AREA =  7.8539816e+05 MM^2
+                        DENSITY =  7.8270820e-06 KILOGRAM / MM^3
+                           MASS =  3.8421099e+02 KILOGRAM 
+
+        CENTER OF GRAVITY with respect to PRT_CSYS_DEF coordinate frame:
+X   Y   Z           0.0000000e+00  0.0000000e+00  1.2500000e+02  MM
+
+    INERTIA with respect to PRT_CSYS_DEF coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.4007692e+07  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.4007693e+07  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  1.2006593e+07
+
+   INERTIA at CENTER OF GRAVITY with respect to PRT_CSYS_DEF coordinate frame:
+                                                            (KILOGRAM * MM^2)   
+INERTIA TENSOR:
+Ixx Ixy Ixz         8.0043954e+06  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  8.0043958e+06  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  1.2006593e+07
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          8.0043950e+06  8.0043963e+06  1.2006593e+07
+
+        ROTATION MATRIX from PRT_CSYS_DEF orientation to PRINCIPAL AXES:
+                       1.00000        0.00000        0.00000
+                       0.00000        1.00000        0.00000
+                       0.00000        0.00000        1.00000
+
+   ROTATION ANGLES from PRT_CSYS_DEF orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000          0.000          0.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          1.4433756e+02  1.4433757e+02  1.7677670e+02  MM
+

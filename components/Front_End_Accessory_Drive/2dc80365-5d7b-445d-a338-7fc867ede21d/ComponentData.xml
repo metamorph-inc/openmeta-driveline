@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2dc80365-5d7b-445d-a338-7fc867ede21d" Name="Front_End_Accessory_Drive" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="modelica" xsi:type="q1:ModelicaModel" FilePathWithinResource="" Author="" Notes="" Class="C2M2L_Ext.C2M2L_Delivered_Component_Implementations.Prime_Movers.Accessory_Drives.Front_End_Accessory_Drive" xmlns="">
+    <Parameter Locator="viz_height">
+      <Value ID="id-142beb4f-dbab-4199-8793-6d4ef312f4ca">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-752a5675-6407-4fd3-a74e-fa5381309721" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_width">
+      <Value ID="id-b5090b7c-8e80-491c-8512-51abb69fc14f">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-5eb7885d-7f1e-4438-8b86-396575132603" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_length">
+      <Value ID="id-67a2f8b8-c97b-43d1-8baf-d6027e073601">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-46f1f61b-0aa9-49e3-9d8a-19e624e020c4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="r_shape">
+      <Value ID="id-6dd9b067-6459-4d00-b8b5-23323eb12731">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-fd49dee8-0395-4291-aa22-78ed95b4d0ce" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pulley3_lossTable">
+      <Value ID="id-81b53d52-2735-4649-9a5c-f6ef92298a0b">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-9988f201-d618-4a91-9ef8-dfcd1d89537b" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pulley2_lossTable">
+      <Value ID="id-d267bab2-6312-41d2-9e1d-31d24bc86f1f">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:DerivedValue" ValueSource="id-be3b20b0-e7cf-4815-bebe-5bcff439bf90" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pulley1_lossTable">
+      <Value ID="id-04205752-b941-45cd-8da4-f1f300a3187a">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:DerivedValue" ValueSource="id-efac297e-5869-4b30-8a59-ccd2d560e899" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pulley_3_diameter">
+      <Value ID="id-d2560dd2-659d-41f1-b16b-cb783d45fb04">
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:DerivedValue" ValueSource="id-a5f1b1dd-722a-4dce-9bad-2870272839d3" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pulley_2_diameter">
+      <Value ID="id-d6da7d9a-f90c-4cc0-9ae3-ae0d79936eb7">
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:DerivedValue" ValueSource="id-2fe30286-758f-4669-9c7c-22f68a37fb0d" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pulley_1_diameter">
+      <Value ID="id-5e06861e-509c-4f81-9eb2-79f264fda9b4">
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:DerivedValue" ValueSource="id-3d233b47-f391-47da-906e-63f680116fdc" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="mass">
+      <Value ID="id-f2d1481c-edaf-4b3f-93e5-c2b5426a49bf">
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:DerivedValue" ValueSource="id-d04e1462-f7bc-490b-99c0-aefb03bd2164" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="J_xxyyzz">
+      <Value ID="id-e0441a8b-130b-42f9-b7de-2a7b4d1db938">
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:DerivedValue" ValueSource="id-aeb5610d-a8be-460e-a6f2-164dfc5a22b2" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="has_mass">
+      <Value ID="id-d6d47042-715b-4755-85e9-696303848ea5">
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:DerivedValue" ValueSource="id-fe4d98a1-56fe-402d-b007-26d83ffbb29f" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="drivenpulley_losses">
+      <Value ID="id-d742cc99-136f-4eb6-a27e-25e9cfd9c9a5">
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:DerivedValue" ValueSource="id-6617df3a-0770-4e4f-ba2b-0bdba9f4ef15" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="drive_pulley_diameter">
+      <Value ID="id-15031e00-8bef-49db-a9d4-ef98c2dab3d9">
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:DerivedValue" ValueSource="id-89ca2ee7-d5ce-48de-b2bd-4006e1f32de9" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="color">
+      <Value ID="id-6a630bb4-2d4f-4943-9425-c01331eba940">
+        <ValueExpression xmlns:q17="avm" xsi:type="q17:DerivedValue" ValueSource="id-5c064d28-806a-4847-a961-928c5d898310" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="c_of_g_position">
+      <Value ID="id-57b9f273-edaf-464f-8714-c35d2a93eb38">
+        <ValueExpression xmlns:q18="avm" xsi:type="q18:DerivedValue" ValueSource="id-1e71f9ba-7ca1-4271-94f5-982496b67796" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_3_z_direction">
+      <Value ID="id-a10e394d-39c1-4b28-8321-bee487a5bef5">
+        <ValueExpression xmlns:q19="avm" xsi:type="q19:DerivedValue" ValueSource="id-e54b651f-1c96-4d6d-84ae-b4764b8dcfe4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_3_y">
+      <Value ID="id-d161d514-359c-46c7-ab39-6b058c0e4e52">
+        <ValueExpression xmlns:q20="avm" xsi:type="q20:DerivedValue" ValueSource="id-4fff7460-a7f4-4cd7-a536-71d790d35c3f" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_3_x">
+      <Value ID="id-11b4c109-f22a-4a67-8991-9524f2604172">
+        <ValueExpression xmlns:q21="avm" xsi:type="q21:DerivedValue" ValueSource="id-4e5beb05-f3c2-4302-b1cc-a3300e02ba54" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_2_z_direction">
+      <Value ID="id-59015e89-27cf-4a2d-a2c7-62564ac56cbb">
+        <ValueExpression xmlns:q22="avm" xsi:type="q22:DerivedValue" ValueSource="id-21fc3843-41b2-40c1-b6bc-e52ea6126b67" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_2_y">
+      <Value ID="id-e87733aa-009b-4466-9278-f7aadf157754">
+        <ValueExpression xmlns:q23="avm" xsi:type="q23:DerivedValue" ValueSource="id-a7f761f4-3062-4527-8086-2638b69eb0b5" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_2_x">
+      <Value ID="id-c841f6b7-c35e-48e4-a74c-cb7bb0e7feee">
+        <ValueExpression xmlns:q24="avm" xsi:type="q24:DerivedValue" ValueSource="id-2c7a1d50-6f9a-4241-843e-6e328c1011ce" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_1_z_direction">
+      <Value ID="id-b804a866-7b53-48de-81d3-5c81db18b1d1">
+        <ValueExpression xmlns:q25="avm" xsi:type="q25:DerivedValue" ValueSource="id-45602bbb-2ab1-4141-aead-6ea71897ea72" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_1_y">
+      <Value ID="id-f16a9fe4-80fe-4a6b-b42c-748e10226bfe">
+        <ValueExpression xmlns:q26="avm" xsi:type="q26:DerivedValue" ValueSource="id-c56aadd7-3e01-487b-8867-63fdcd73a511" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="aux_1_x">
+      <Value ID="id-42405bbd-ab08-49da-b591-fa3d35f395c6">
+        <ValueExpression xmlns:q27="avm" xsi:type="q27:DerivedValue" ValueSource="id-06bd5bff-ec9e-4f27-9c45-5047be350250" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="animation">
+      <Value ID="id-c190e5a3-4ac6-4c0e-87a0-e106e8690caf">
+        <ValueExpression xmlns:q28="avm" xsi:type="q28:DerivedValue" ValueSource="id-8ed045f5-a7f2-418d-9dc8-d4e2f9c26e65" />
+      </Value>
+    </Parameter>
+    <Connector ID="id-498d8343-4e2d-4a86-b914-b0124a95de8a" PortMap="id-1900c67c-fa88-4ead-a428-a95f5dc66fbc" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-dea7d3b2-3e48-4e25-83cf-cc441f5ffd11" PortMap="id-1bbbb534-2205-4dbb-84b1-a69e70f506b9" Name="aux_3" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-6cccddd9-2957-449f-82c6-ec5b1ac60be3">
+          <ValueExpression xmlns:q29="avm" xsi:type="q29:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+    <Connector ID="id-59710837-e774-4ffc-ac84-f9782a34c6e9" PortMap="id-8d12650d-7438-4496-a0f1-8b501f6b3b9a" Name="aux_2" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-b6943609-3926-479b-a53b-4741c7977937">
+          <ValueExpression xmlns:q30="avm" xsi:type="q30:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+    <Connector ID="id-f799479d-7049-4178-9bc3-553f3e21392f" PortMap="id-aea67b1f-ea5e-4e4f-bcb4-6f58bd30edf5" Name="aux_1" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-220585ec-ee30-4284-8886-2ab4e8c65d2b">
+          <ValueExpression xmlns:q31="avm" xsi:type="q31:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+    <Connector ID="id-6288e804-fb84-47d4-a14c-78d7b6e6ecd7" PortMap="id-21491f74-5530-4aa8-857d-b0293b29baef" Name="crank_pulley" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-eaefed1a-90d6-4bcb-b4fc-7bf3dfedc765">
+          <ValueExpression xmlns:q32="avm" xsi:type="q32:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+  </DomainModel>
+  <Property xmlns:q33="avm" xsi:type="q33:PrimitiveProperty" Name="Height" ID="property.id-752a5675-6407-4fd3-a74e-fa5381309721" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-752a5675-6407-4fd3-a74e-fa5381309721">
+      <ValueExpression xsi:type="q33:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q34="avm" xsi:type="q34:PrimitiveProperty" Name="Width" ID="property.id-5eb7885d-7f1e-4438-8b86-396575132603" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5eb7885d-7f1e-4438-8b86-396575132603">
+      <ValueExpression xsi:type="q34:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q35="avm" xsi:type="q35:PrimitiveProperty" Name="Length" ID="property.id-46f1f61b-0aa9-49e3-9d8a-19e624e020c4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-46f1f61b-0aa9-49e3-9d8a-19e624e020c4">
+      <ValueExpression xsi:type="q35:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q36="avm" xsi:type="q36:PrimitiveProperty" Name="r_shape" ID="property.id-fd49dee8-0395-4291-aa22-78ed95b4d0ce" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-fd49dee8-0395-4291-aa22-78ed95b4d0ce">
+      <ValueExpression xsi:type="q36:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q37="avm" xsi:type="q37:PrimitiveProperty" Name="pulley_3_diameter" ID="property.id-a5f1b1dd-722a-4dce-9bad-2870272839d3" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-a5f1b1dd-722a-4dce-9bad-2870272839d3">
+      <ValueExpression xsi:type="q37:FixedValue">
+        <Value>0.05</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q38="avm" xsi:type="q38:PrimitiveProperty" Name="pulley3_lossTable" ID="property.id-9988f201-d618-4a91-9ef8-dfcd1d89537b" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-9988f201-d618-4a91-9ef8-dfcd1d89537b">
+      <ValueExpression xsi:type="q38:FixedValue">
+        <Value>[0,1,1,0,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q39="avm" xsi:type="q39:PrimitiveProperty" Name="pulley2_lossTable" ID="property.id-be3b20b0-e7cf-4815-bebe-5bcff439bf90" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-be3b20b0-e7cf-4815-bebe-5bcff439bf90">
+      <ValueExpression xsi:type="q39:FixedValue">
+        <Value>[0,1,1,0,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q40="avm" xsi:type="q40:PrimitiveProperty" Name="pulley1_lossTable" ID="property.id-efac297e-5869-4b30-8a59-ccd2d560e899" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-efac297e-5869-4b30-8a59-ccd2d560e899">
+      <ValueExpression xsi:type="q40:FixedValue">
+        <Value>[0,1,1,0,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q41="avm" xsi:type="q41:PrimitiveProperty" Name="has_mass" ID="property.id-fe4d98a1-56fe-402d-b007-26d83ffbb29f" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-fe4d98a1-56fe-402d-b007-26d83ffbb29f">
+      <ValueExpression xsi:type="q41:FixedValue">
+        <Value>true</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q42="avm" xsi:type="q42:PrimitiveProperty" Name="drivenpulley_losses" ID="property.id-6617df3a-0770-4e4f-ba2b-0bdba9f4ef15" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-6617df3a-0770-4e4f-ba2b-0bdba9f4ef15">
+      <ValueExpression xsi:type="q42:FixedValue">
+        <Value>[0,1,1,0,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q43="avm" xsi:type="q43:PrimitiveProperty" Name="color" ID="property.id-5c064d28-806a-4847-a961-928c5d898310" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5c064d28-806a-4847-a961-928c5d898310">
+      <ValueExpression xsi:type="q43:FixedValue">
+        <Value>{0,128,255}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q44="avm" xsi:type="q44:PrimitiveProperty" Name="animation" ID="property.id-8ed045f5-a7f2-418d-9dc8-d4e2f9c26e65" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-8ed045f5-a7f2-418d-9dc8-d4e2f9c26e65">
+      <ValueExpression xsi:type="q44:FixedValue">
+        <Value>world.enableAnimation and world.driveTrainMechanics3D</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q45="avm" xsi:type="q45:PrimitiveProperty" Name="pulley_2_diameter" ID="property.id-2fe30286-758f-4669-9c7c-22f68a37fb0d" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-2fe30286-758f-4669-9c7c-22f68a37fb0d">
+      <ValueExpression xsi:type="q45:FixedValue">
+        <Value>0.05</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q46="avm" xsi:type="q46:PrimitiveProperty" Name="pulley_1_diameter" ID="property.id-3d233b47-f391-47da-906e-63f680116fdc" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-3d233b47-f391-47da-906e-63f680116fdc">
+      <ValueExpression xsi:type="q46:FixedValue">
+        <Value>0.05</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q47="avm" xsi:type="q47:PrimitiveProperty" Name="mass" ID="property.id-d04e1462-f7bc-490b-99c0-aefb03bd2164" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-d04e1462-f7bc-490b-99c0-aefb03bd2164">
+      <ValueExpression xsi:type="q47:FixedValue">
+        <Value>1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q48="avm" xsi:type="q48:PrimitiveProperty" Name="J_xxyyzz" ID="property.id-aeb5610d-a8be-460e-a6f2-164dfc5a22b2" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-aeb5610d-a8be-460e-a6f2-164dfc5a22b2">
+      <ValueExpression xsi:type="q48:FixedValue">
+        <Value>{0.001,0.001,0.001,0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q49="avm" xsi:type="q49:PrimitiveProperty" Name="drive_pulley_diameter" ID="property.id-89ca2ee7-d5ce-48de-b2bd-4006e1f32de9" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-89ca2ee7-d5ce-48de-b2bd-4006e1f32de9">
+      <ValueExpression xsi:type="q49:FixedValue">
+        <Value>0.05</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q50="avm" xsi:type="q50:PrimitiveProperty" Name="c_of_g_position" ID="property.id-1e71f9ba-7ca1-4271-94f5-982496b67796" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-1e71f9ba-7ca1-4271-94f5-982496b67796">
+      <ValueExpression xsi:type="q50:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q51="avm" xsi:type="q51:PrimitiveProperty" Name="aux_3_z_direction" ID="property.id-e54b651f-1c96-4d6d-84ae-b4764b8dcfe4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-e54b651f-1c96-4d6d-84ae-b4764b8dcfe4">
+      <ValueExpression xsi:type="q51:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q52="avm" xsi:type="q52:PrimitiveProperty" Name="aux_3_y" ID="property.id-4fff7460-a7f4-4cd7-a536-71d790d35c3f" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-4fff7460-a7f4-4cd7-a536-71d790d35c3f">
+      <ValueExpression xsi:type="q52:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q53="avm" xsi:type="q53:PrimitiveProperty" Name="aux_3_x" ID="property.id-4e5beb05-f3c2-4302-b1cc-a3300e02ba54" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-4e5beb05-f3c2-4302-b1cc-a3300e02ba54">
+      <ValueExpression xsi:type="q53:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q54="avm" xsi:type="q54:PrimitiveProperty" Name="aux_2_z_direction" ID="property.id-21fc3843-41b2-40c1-b6bc-e52ea6126b67" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-21fc3843-41b2-40c1-b6bc-e52ea6126b67">
+      <ValueExpression xsi:type="q54:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q55="avm" xsi:type="q55:PrimitiveProperty" Name="aux_2_y" ID="property.id-a7f761f4-3062-4527-8086-2638b69eb0b5" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-a7f761f4-3062-4527-8086-2638b69eb0b5">
+      <ValueExpression xsi:type="q55:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q56="avm" xsi:type="q56:PrimitiveProperty" Name="aux_2_x" ID="property.id-2c7a1d50-6f9a-4241-843e-6e328c1011ce" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-2c7a1d50-6f9a-4241-843e-6e328c1011ce">
+      <ValueExpression xsi:type="q56:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q57="avm" xsi:type="q57:PrimitiveProperty" Name="aux_1_z_direction" ID="property.id-45602bbb-2ab1-4141-aead-6ea71897ea72" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-45602bbb-2ab1-4141-aead-6ea71897ea72">
+      <ValueExpression xsi:type="q57:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q58="avm" xsi:type="q58:PrimitiveProperty" Name="aux_1_y" ID="property.id-c56aadd7-3e01-487b-8867-63fdcd73a511" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-c56aadd7-3e01-487b-8867-63fdcd73a511">
+      <ValueExpression xsi:type="q58:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q59="avm" xsi:type="q59:PrimitiveProperty" Name="aux_1_x" ID="property.id-06bd5bff-ec9e-4f27-9c45-5047be350250" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-06bd5bff-ec9e-4f27-9c45-5047be350250">
+      <ValueExpression xsi:type="q59:FixedValue">
+        <Value>0.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Connector ConnectorComposition="" ID="id-3e58d4fd-9853-416c-ad84-5e28fbfa0c08" ApplyJoinData="" Notes="" Name="origin" Definition="" xmlns="">
+    <Role xmlns:q60="modelica" xsi:type="q60:Connector" ID="id-1900c67c-fa88-4ead-a428-a95f5dc66fbc" PortMap="" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-8b606575-56ec-4f17-89b4-d43478f5cd22" ApplyJoinData="" Notes="" Name="aux_3" Definition="" xmlns="">
+    <Role xmlns:q61="modelica" xsi:type="q61:Connector" ID="id-1bbbb534-2205-4dbb-84b1-a69e70f506b9" PortMap="" Name="aux_3" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-93ddb2bf-04e6-4b79-a0b7-b9838b000caf">
+          <ValueExpression xmlns:q62="avm" xsi:type="q62:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5cdc2d0b-22fd-4048-894d-174a1f357ade" ApplyJoinData="" Notes="" Name="aux_2" Definition="" xmlns="">
+    <Role xmlns:q63="modelica" xsi:type="q63:Connector" ID="id-8d12650d-7438-4496-a0f1-8b501f6b3b9a" PortMap="" Name="aux_2" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-6c6934f1-9058-42a8-8d73-4fac3d318a05">
+          <ValueExpression xmlns:q64="avm" xsi:type="q64:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-d01ddfc9-506f-4926-8269-197200b2db88" ApplyJoinData="" Notes="" Name="aux_1" Definition="" xmlns="">
+    <Role xmlns:q65="modelica" xsi:type="q65:Connector" ID="id-aea67b1f-ea5e-4e4f-bcb4-6f58bd30edf5" PortMap="" Name="aux_1" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-c980a88c-63ff-4045-877e-df6791cae5d7">
+          <ValueExpression xmlns:q66="avm" xsi:type="q66:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-84e7c404-c15c-4131-85d3-abb865295047" ApplyJoinData="" Notes="" Name="crank_pulley" Definition="" xmlns="">
+    <Role xmlns:q67="modelica" xsi:type="q67:Connector" ID="id-21491f74-5530-4aa8-857d-b0293b29baef" PortMap="" Name="crank_pulley" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-3929b43e-69d6-442e-b78d-4c6164654fc7">
+          <ValueExpression xmlns:q68="avm" xsi:type="q68:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

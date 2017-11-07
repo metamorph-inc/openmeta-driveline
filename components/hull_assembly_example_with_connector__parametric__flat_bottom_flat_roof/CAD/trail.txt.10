@@ -1,0 +1,1011 @@
+﻿!trail file version No. 1600
+!Creo  TM  2.0  (c) 2015 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 7140
+!	Application: Creo_Parametric
+!	Start date&time: 2015/05/05  16:23:48
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: M110
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\traceback.log
+!end Exit Logger data.
+< 0 1.358222 1773 0 0 1146 1920 0 0 1200 13
+!mem_use INCREASE Blocks 426796, AppSize 49698775, SysSize 59649616
+< 0 1.146074 1617 0 0 967 1920 0 0 1200 13
+< 0 1.146074 1455 0 0 967 1920 0 0 1200 13
+!%CIWelcome to Creo Parametric Academic Edition 2.0.
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): started Pro/E.
+!	exec path: C:\Program Files\META\Proe ISIS Extensions\bin\CADCreoParametricMetaLink.exe
+!	type: asynchronous
+!Application (utilities): running DLL-mode user_initialize
+!Application (utilities): returned from DLL-mode user_initialize; status is 0
+!Application (utilities): started via registry.
+!	exec path: C:\HuDAT\\pt_utilities.dll
+!	type: synchronous Pro/TOOLKIT DLL
+!Application (hudat): running DLL-mode user_initialize
+!Application (hudat): returned from DLL-mode user_initialize; status is 0
+!Application (hudat): started via registry.
+!	exec path: C:\HuDAT\\HuDAT_load.dll
+!	type: synchronous Pro/TOOLKIT DLL
+!Application (creomanufacturingplugin): started via registry.
+!	type: synchronous J-Link
+< 0 1.142519 1455 0 0 964 1920 0 0 1200 13
+!05-May-15 16:23:51  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_flat_3_roofflat_h1_gus.asm.11
+!05-May-15 16:23:51  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_hull_soapbar_h1_gus.prt.4
+!05-May-15 16:23:51  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_hull_soapbar_h1_gus.prt.4
+!05-May-15 16:23:51  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_hull_panels_h1_gus.asm.3
+!05-May-15 16:23:51  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s5_panel_h1_gus.prt.3
+!05-May-15 16:23:51  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s5_panel_h1_gus.prt.3
+!05-May-15 16:23:51  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s7_panel_h1_gus.prt.3
+!05-May-15 16:23:51  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s7_panel_h1_gus.prt.3
+!05-May-15 16:23:51  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s8_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s8_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s9_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s9_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s10_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s10_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s1_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s1_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s2_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s2_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s3_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_s3_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f1_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f1_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f3_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f3_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f3b_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f3b_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f4_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_f4_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_r1_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_r1_panel_h1_gus.prt.3
+!05-May-15 16:23:52  Start D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_r1b_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_r1b_panel_h1_gus.prt.3
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_hull_panels_h1_gus.asm.3
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!05-May-15 16:23:52  End   D:\Repos\c2m2l\VU\sandbox\CyPhy_models\DriveTrain_v4\components\hull_assembly_example_with_connector__parametric__flat_bottom_flat_roof\CAD\e137_flat_3_roofflat_h1_gus.asm.11
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+< 0 1.136593 1455 0 0 959 1920 0 0 1200 13
+!mem_use INCREASE Blocks 606926, AppSize 80778305, SysSize 93293232
+!Undo: added rec_id 1002 type 5204 
+!
+!Undo: added rec_id 1005 type 5204 
+!
+!Undo: added rec_id 1007 type 5204 
+!
+!Undo: added rec_id 1009 type 5204 
+!
+!Undo: added rec_id 1011 type 5204 
+!
+!Undo: added rec_id 1013 type 5204 
+!
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ MButtonArm `main_dlg_cur` `proe_win` 9 703 453 0 2 1455 959 1920 1200 6039
+~ Move `main_dlg_cur` `proe_win` 9 703 454 0 1026 1455 959 1920 1200 6055
+~ Move `main_dlg_cur` `proe_win` 9 703 455 0 1026 1455 959 1920 1200 6063
+~ Move `main_dlg_cur` `proe_win` 9 701 456 0 1538 1455 959 1920 1200 6079
+~ Move `main_dlg_cur` `proe_win` 9 699 459 0 1538 1455 959 1920 1200 6087
+~ Move `main_dlg_cur` `proe_win` 9 696 464 0 1538 1455 959 1920 1200 6095
+~ Move `main_dlg_cur` `proe_win` 9 694 468 0 1538 1455 959 1920 1200 6103
+~ Move `main_dlg_cur` `proe_win` 9 691 472 0 1538 1455 959 1920 1200 6116
+~ Move `main_dlg_cur` `proe_win` 9 688 477 0 1538 1455 959 1920 1200 6124
+~ Move `main_dlg_cur` `proe_win` 9 679 485 0 1538 1455 959 1920 1200 6140
+~ Move `main_dlg_cur` `proe_win` 9 672 492 0 1538 1455 959 1920 1200 6157
+~ Move `main_dlg_cur` `proe_win` 9 666 501 0 1538 1455 959 1920 1200 6174
+~ Move `main_dlg_cur` `proe_win` 9 659 507 0 1538 1455 959 1920 1200 6191
+~ Move `main_dlg_cur` `proe_win` 9 658 508 0 1538 1455 959 1920 1200 6208
+~ Move `main_dlg_cur` `proe_win` 9 658 510 0 1026 1455 959 1920 1200 6225
+~ Move `main_dlg_cur` `proe_win` 9 655 510 0 514 1455 959 1920 1200 6241
+~ Move `main_dlg_cur` `proe_win` 9 655 511 0 1026 1455 959 1920 1200 6288
+~ Move `main_dlg_cur` `proe_win` 9 654 511 0 514 1455 959 1920 1200 6303
+~ Move `main_dlg_cur` `proe_win` 9 653 511 0 514 1455 959 1920 1200 6311
+~ Move `main_dlg_cur` `proe_win` 9 652 513 0 1538 1455 959 1920 1200 6325
+~ Move `main_dlg_cur` `proe_win` 9 648 515 0 1538 1455 959 1920 1200 6341
+~ Move `main_dlg_cur` `proe_win` 9 648 517 0 1026 1455 959 1920 1200 6358
+~ Move `main_dlg_cur` `proe_win` 9 646 519 0 1538 1455 959 1920 1200 6375
+~ Move `main_dlg_cur` `proe_win` 9 645 519 0 514 1455 959 1920 1200 6511
+~ Move `main_dlg_cur` `proe_win` 9 643 519 0 514 1455 959 1920 1200 6543
+~ Move `main_dlg_cur` `proe_win` 9 642 519 0 514 1455 959 1920 1200 6551
+~ Move `main_dlg_cur` `proe_win` 9 640 519 0 514 1455 959 1920 1200 6560
+~ Move `main_dlg_cur` `proe_win` 9 637 520 0 1538 1455 959 1920 1200 6575
+~ Move `main_dlg_cur` `proe_win` 9 631 521 0 1538 1455 959 1920 1200 6592
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 631 521 0 0 1455 959 1920 1200 6624
+~ LButtonArm `main_dlg_cur` `proe_win` 9 977 595 0 1 1455 959 1920 1200 7504
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 977 595 0 0 1455 959 1920 1200 7607
+@ sel view 0
+ 0.027738 -0.038481 0.000188 0.008173 0.006118 0.046325
+ -0.037603 -0.027056 0.010208 350.940078 243.378492 -1341.662101 1.000000 0.000000 0
+~ Move `main_dlg_cur` `proe_win` 9 975 589 33554432 0 1455 959 1920 1200 8272
+>M Chain_oa_sel_CB ProeWin0 975 589 c0 20000 1455 0 0 959 1920 0 0 1200 13
+>M RefselMouseMoveCB ProeWin0 975 589 c0 20000 1455 0 0 959 1920 0 0 1200 13
+~ Command `ProCmdRegenAuto` 
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!ProgressBarDlg: Regen Started
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!ProgressBarDlg: Regen Completed
+!%CIAutomatic regeneration of the parts has been completed.
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+~ Move `main_dlg_cur` `proe_win` 9 974 587 0 0 1455 959 1920 1200 10448
+>M Chain_oa_sel_CB ProeWin0 974 587 c0 0 1455 0 0 959 1920 0 0 1200 13
+~ Move `main_dlg_cur` `proe_win` 9 939 573 33554432 0 1455 959 1920 1200 11240
+>M Chain_oa_sel_CB ProeWin0 939 573 c0 20000 1455 0 0 959 1920 0 0 1200 13
+~ Command `ProCmdRegenAuto` 
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!%CIAutomatic regeneration of the parts has been completed.
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+~ Exit `main_dlg_cur` `proe_win` 9 -37 -97 33554432 1536 1455 959 1920 1200 13276
+~ Enter `main_dlg_cur` `proe_win` 9 939 572 33554432 1536 1455 959 1920 1200 13276
+~ Exit `main_dlg_cur` `proe_win` 9 -37 -97 33554432 1536 1455 959 1920 1200 13277
+~ Move `main_dlg_cur` `proe_win` 9 939 572 0 1536 1455 959 1920 1200 13277
+>M Chain_oa_sel_CB ProeWin0 939 572 c0 0 1455 0 0 959 1920 0 0 1200 13
+~ Activate `main_dlg_cur` `user_custom_page_188174856_control_btn` 1
+~ Command `ISISExportComponent` 
+!Application (UNNAMED): CmdMgr action_func '' called for cmd 'ISISExportComponent'
+!%CWNew objects created with this educational version of Creo Parametric will not be
+!%C_compatible with commercially licensed Creo Parametric software.
+!%CIE137_FLAT_3_ROOFFLAT_H1_GUS has been saved.
+!Application (UNNAMED): CmdMgr action_func '' returned for cmd 'ISISExportComponent'
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+!Application (UNNAMED): running public notification type 81, mode spawn
+!Application (UNNAMED): returned from public notification type 81, mode spawn
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node5`
+!CSYS_145_GUS_M17_AXIS_Z
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node4`
+!ACS0
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ MButtonArm `main_dlg_cur` `proe_win` 9 105 499 0 2 1455 959 1920 1200 65121
+~ Move `main_dlg_cur` `proe_win` 9 107 499 0 514 1455 959 1920 1200 65128
+~ Move `main_dlg_cur` `proe_win` 9 113 499 0 514 1455 959 1920 1200 65136
+~ Move `main_dlg_cur` `proe_win` 9 121 499 0 514 1455 959 1920 1200 65148
+~ Move `main_dlg_cur` `proe_win` 9 127 499 0 514 1455 959 1920 1200 65156
+~ Move `main_dlg_cur` `proe_win` 9 134 498 0 1538 1455 959 1920 1200 65173
+~ Move `main_dlg_cur` `proe_win` 9 147 497 0 1538 1455 959 1920 1200 65189
+~ Move `main_dlg_cur` `proe_win` 9 161 495 0 1538 1455 959 1920 1200 65206
+~ Move `main_dlg_cur` `proe_win` 9 181 489 0 1538 1455 959 1920 1200 65223
+~ Move `main_dlg_cur` `proe_win` 9 198 486 0 1538 1455 959 1920 1200 65239
+~ Move `main_dlg_cur` `proe_win` 9 202 483 0 1538 1455 959 1920 1200 65256
+~ Move `main_dlg_cur` `proe_win` 9 204 483 0 514 1455 959 1920 1200 65592
+~ Move `main_dlg_cur` `proe_win` 9 203 483 0 514 1455 959 1920 1200 65608
+~ Move `main_dlg_cur` `proe_win` 9 202 484 0 1538 1455 959 1920 1200 65640
+~ Move `main_dlg_cur` `proe_win` 9 202 485 0 1026 1455 959 1920 1200 65672
+~ Move `main_dlg_cur` `proe_win` 9 201 485 0 514 1455 959 1920 1200 65688
+~ Move `main_dlg_cur` `proe_win` 9 201 486 0 1026 1455 959 1920 1200 65712
+~ Move `main_dlg_cur` `proe_win` 9 201 487 0 1026 1455 959 1920 1200 65736
+~ Move `main_dlg_cur` `proe_win` 9 201 488 0 1026 1455 959 1920 1200 65744
+~ Move `main_dlg_cur` `proe_win` 9 201 489 0 1026 1455 959 1920 1200 65752
+~ Move `main_dlg_cur` `proe_win` 9 201 490 0 1026 1455 959 1920 1200 65760
+~ Move `main_dlg_cur` `proe_win` 9 202 490 0 514 1455 959 1920 1200 65773
+~ Move `main_dlg_cur` `proe_win` 9 203 492 0 1538 1455 959 1920 1200 65790
+~ Move `main_dlg_cur` `proe_win` 9 212 493 0 1538 1455 959 1920 1200 65806
+~ Move `main_dlg_cur` `proe_win` 9 222 494 0 1538 1455 959 1920 1200 65823
+~ Move `main_dlg_cur` `proe_win` 9 237 494 0 514 1455 959 1920 1200 65839
+~ Move `main_dlg_cur` `proe_win` 9 259 494 0 514 1455 959 1920 1200 65856
+~ Move `main_dlg_cur` `proe_win` 9 271 494 0 514 1455 959 1920 1200 65873
+~ Move `main_dlg_cur` `proe_win` 9 281 494 0 514 1455 959 1920 1200 65889
+~ Move `main_dlg_cur` `proe_win` 9 290 492 0 1538 1455 959 1920 1200 65906
+~ Move `main_dlg_cur` `proe_win` 9 301 491 0 1538 1455 959 1920 1200 65923
+~ Move `main_dlg_cur` `proe_win` 9 311 491 0 514 1455 959 1920 1200 65939
+~ Move `main_dlg_cur` `proe_win` 9 319 491 0 514 1455 959 1920 1200 65956
+~ Move `main_dlg_cur` `proe_win` 9 326 491 0 514 1455 959 1920 1200 65973
+~ Move `main_dlg_cur` `proe_win` 9 333 491 0 514 1455 959 1920 1200 65990
+~ Move `main_dlg_cur` `proe_win` 9 347 491 0 514 1455 959 1920 1200 66006
+~ Move `main_dlg_cur` `proe_win` 9 359 491 0 514 1455 959 1920 1200 66023
+~ Move `main_dlg_cur` `proe_win` 9 372 489 0 1538 1455 959 1920 1200 66040
+~ Move `main_dlg_cur` `proe_win` 9 374 489 0 514 1455 959 1920 1200 66056
+~ Move `main_dlg_cur` `proe_win` 9 376 489 0 514 1455 959 1920 1200 66160
+~ Move `main_dlg_cur` `proe_win` 9 377 489 0 514 1455 959 1920 1200 66232
+~ Move `main_dlg_cur` `proe_win` 9 378 489 0 514 1455 959 1920 1200 66239
+~ Move `main_dlg_cur` `proe_win` 9 378 490 0 1026 1455 959 1920 1200 66311
+~ Move `main_dlg_cur` `proe_win` 9 378 491 0 1026 1455 959 1920 1200 66327
+~ Move `main_dlg_cur` `proe_win` 9 377 491 0 514 1455 959 1920 1200 66336
+~ Move `main_dlg_cur` `proe_win` 9 375 494 0 1538 1455 959 1920 1200 66343
+~ Move `main_dlg_cur` `proe_win` 9 373 495 0 1538 1455 959 1920 1200 66356
+~ Move `main_dlg_cur` `proe_win` 9 365 501 0 1538 1455 959 1920 1200 66373
+~ Move `main_dlg_cur` `proe_win` 9 353 506 0 1538 1455 959 1920 1200 66390
+~ Move `main_dlg_cur` `proe_win` 9 334 515 0 1538 1455 959 1920 1200 66406
+~ Move `main_dlg_cur` `proe_win` 9 319 522 0 1538 1455 959 1920 1200 66423
+~ Move `main_dlg_cur` `proe_win` 9 308 527 0 1538 1455 959 1920 1200 66440
+~ Move `main_dlg_cur` `proe_win` 9 303 528 0 1538 1455 959 1920 1200 66456
+~ Move `main_dlg_cur` `proe_win` 9 302 529 0 1538 1455 959 1920 1200 66473
+~ Move `main_dlg_cur` `proe_win` 9 300 529 0 514 1455 959 1920 1200 66544
+~ Move `main_dlg_cur` `proe_win` 9 299 529 0 514 1455 959 1920 1200 66552
+~ Move `main_dlg_cur` `proe_win` 9 290 529 0 514 1455 959 1920 1200 66560
+~ Move `main_dlg_cur` `proe_win` 9 286 530 0 1538 1455 959 1920 1200 66574
+~ Move `main_dlg_cur` `proe_win` 9 272 530 0 514 1455 959 1920 1200 66591
+~ Move `main_dlg_cur` `proe_win` 9 258 530 0 514 1455 959 1920 1200 66607
+~ Move `main_dlg_cur` `proe_win` 9 241 530 0 514 1455 959 1920 1200 66624
+~ Move `main_dlg_cur` `proe_win` 9 208 524 0 1538 1455 959 1920 1200 66641
+~ Move `main_dlg_cur` `proe_win` 9 195 521 0 1538 1455 959 1920 1200 66657
+~ Move `main_dlg_cur` `proe_win` 9 188 521 0 514 1455 959 1920 1200 66674
+~ Move `main_dlg_cur` `proe_win` 9 187 521 0 514 1455 959 1920 1200 66691
+~ Move `main_dlg_cur` `proe_win` 9 186 521 0 514 1455 959 1920 1200 66872
+~ Move `main_dlg_cur` `proe_win` 9 185 521 0 514 1455 959 1920 1200 66928
+~ Move `main_dlg_cur` `proe_win` 9 184 521 0 514 1455 959 1920 1200 66944
+~ Move `main_dlg_cur` `proe_win` 9 182 521 0 514 1455 959 1920 1200 66952
+~ Move `main_dlg_cur` `proe_win` 9 179 521 0 514 1455 959 1920 1200 66960
+~ Move `main_dlg_cur` `proe_win` 9 176 521 0 514 1455 959 1920 1200 66974
+~ Move `main_dlg_cur` `proe_win` 9 169 521 0 514 1455 959 1920 1200 66991
+~ Move `main_dlg_cur` `proe_win` 9 167 521 0 514 1455 959 1920 1200 67007
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 167 521 0 0 1455 959 1920 1200 67024
+~ LButtonArm `main_dlg_cur` `proe_win` 9 969 149 0 1 1455 959 1920 1200 91635
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Move `main_dlg_cur` `proe_win` 9 969 149 0 1 1455 959 1920 1200 91768
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 969 149 0 0 1455 959 1920 1200 91768
+@ sel view 0
+ 0.003918 -0.046570 -0.008133 0.005373 -0.007669 0.046503
+ -0.046968 -0.004762 0.004642 505.498195 259.167746 -1276.177700 1.000000 0.000000 0
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!Application (utilities): running DLL-mode user_terminate
+!Application (utilities): returned from DLL-mode user_terminate
+!Application (hudat): running DLL-mode user_terminate
+!Application (hudat): returned from DLL-mode user_terminate
+!End of Trail File

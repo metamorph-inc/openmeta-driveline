@@ -1,0 +1,6 @@
+Starting DAT Utilities Application
+
+Failed to parse JSON Config file: JSON Config file C:\HuDAT\\config.json is missing or unparseable
+Starting DAT Hull Application
+
+Starting AVM Toolkit Applications

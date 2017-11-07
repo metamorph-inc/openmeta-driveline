@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c013d38a-e122-476e-9cb7-e425a4bc4d1f" Name="Example_Engine_Basic" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="modelica" xsi:type="q1:ModelicaModel" FilePathWithinResource="" Author="" Notes="" Class="C2M2L_Ext.C2M2L_Delivered_Component_Implementations.Prime_Movers.Reciprocating.Compression_Ignition.Engine_Basic.Example_Engine_Basic" xmlns="">
+    <Parameter Locator="voleff">
+      <Value ID="id-83dbbc97-1bfa-4283-947c-69d5dba21839">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-c7a3d7e4-c4de-4bd6-b414-8eef7255e505" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="viz_height">
+      <Value ID="id-ab2551ba-27e6-4127-bd8d-c57442494dec">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-a88f298f-94c9-4795-a844-c4e8bb4f9dbf" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_width">
+      <Value ID="id-9a54ffd9-9e36-47b9-bc7c-cf1ab21494fa">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-3c259cff-4963-4ba4-98bb-84811c4953f7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_length">
+      <Value ID="id-b2a496a4-63ee-4759-b8c5-0d90b76ee1a9">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-e63700d3-9f79-4435-b21a-e0c2f0506f7b" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="v_nom">
+      <Value ID="id-36b3c36f-a453-4d85-ad5b-d9e0e52eb736">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-f96584b6-e98b-4f76-bec5-1b8a30e6c51e" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="V_dot_nom">
+      <Value ID="id-e7ecf397-01d7-4750-8d7c-8621d3d08ce1">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:DerivedValue" ValueSource="id-1224b1c4-e888-45dd-9009-0f6c67709f55" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_04">
+      <Value ID="id-037aa833-eef0-4e03-86b9-6e0009a11f1d">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:DerivedValue" ValueSource="id-11882069-7dba-4d06-9029-5116a0cef1d5" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_03">
+      <Value ID="id-1dcf4bdf-8e67-4c7a-9690-9cd806d835e8">
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:DerivedValue" ValueSource="id-f2be57b5-64db-4cac-b4dd-6d502bdc493d" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_02">
+      <Value ID="id-84969a52-fb03-4a01-8f8c-39ba6d4d96e5">
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:DerivedValue" ValueSource="id-fd291356-f54e-4cb4-8e0f-20af3b85e758" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_01">
+      <Value ID="id-c1278406-0c11-4d55-ac12-91dac4ed2b1c">
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:DerivedValue" ValueSource="id-1178d023-950f-476d-b8de-e691f066c95a" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_brg_02">
+      <Value ID="id-66c89c9d-ddc2-435e-a519-b2e71487a220">
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:DerivedValue" ValueSource="id-42d604a1-9e18-4e45-9e4e-13d69928dcbb" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_brg_01">
+      <Value ID="id-b982761a-a3f4-40a7-ba6a-7a025f2e3f58">
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:DerivedValue" ValueSource="id-e1788ea4-ac26-4ad8-a83e-423750c2471b" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="torque_curve">
+      <Value ID="id-f4684f42-5718-4f22-b50b-b508e54d2853">
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:DerivedValue" ValueSource="id-729ac42b-3dbd-4b8a-acdc-9b4ecfcfa09d" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="T_inlet_nom">
+      <Value ID="id-619d2ad8-88f1-4430-bf2b-76becde0c9c9">
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:DerivedValue" ValueSource="id-88fe1e70-0d9c-4e68-be30-882ba3dc5335" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="r_shape">
+      <Value ID="id-4e7bc0f7-1f9a-4614-9cf9-5064fa9c9a86">
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:DerivedValue" ValueSource="id-f59cebed-0e90-4fd7-ad57-3121e9e87662" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="N_ref">
+      <Value ID="id-325c236a-f8b4-4852-9f16-28b0c2ca64f5">
+        <ValueExpression xmlns:q17="avm" xsi:type="q17:DerivedValue" ValueSource="id-503030c1-3a92-46f7-a816-96ea84de51f4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="mass">
+      <Value ID="id-3f878ce4-cdab-4b63-a6d3-aa64cfb8343a">
+        <ValueExpression xmlns:q18="avm" xsi:type="q18:DerivedValue" ValueSource="id-66ecddfa-c7c7-4ee5-97ad-abe92380ccb7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="Jengine">
+      <Value ID="id-f796993a-0a72-433e-99bc-0ca1bfec1275">
+        <ValueExpression xmlns:q19="avm" xsi:type="q19:DerivedValue" ValueSource="id-4b89a9e3-a5bb-4396-b793-eabface1745c" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="J_xxyyzz">
+      <Value ID="id-81cb9b43-c912-4a7c-bc6a-b34bae796cf3">
+        <ValueExpression xmlns:q20="avm" xsi:type="q20:DerivedValue" ValueSource="id-585c8c73-660e-4b07-a243-bdb679b3b9b4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="has_mass">
+      <Value ID="id-96869242-41da-425a-b317-5084dded29a4">
+        <ValueExpression xmlns:q21="avm" xsi:type="q21:DerivedValue" ValueSource="id-b2290b5f-6375-42ef-aa4a-3811f9f91442" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="fuel_map">
+      <Value ID="id-d176a324-e8ce-4839-9575-322ec5c26064">
+        <ValueExpression xmlns:q22="avm" xsi:type="q22:DerivedValue" ValueSource="id-f0e99052-b14e-4161-b01b-864f1cd66a35" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="friction_curve">
+      <Value ID="id-7f0d340e-c508-47e3-9f49-9d2209815a99">
+        <ValueExpression xmlns:q23="avm" xsi:type="q23:DerivedValue" ValueSource="id-e6381dc4-0138-447e-921e-d3ec642da70a" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="flow_characteristic">
+      <Value ID="id-baa1425b-b83a-40e3-b4b6-68fe042e76dc">
+        <ValueExpression xmlns:q24="avm" xsi:type="q24:DerivedValue" ValueSource="id-06280616-49ae-4e2e-b6e9-3e10adb4a221" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="engine_displacement">
+      <Value ID="id-3173e56c-870c-498c-9d9c-d22d172bca58">
+        <ValueExpression xmlns:q25="avm" xsi:type="q25:DerivedValue" ValueSource="id-a5aec3c4-fa64-4a5c-afe2-2c550c241bc4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="efficiency_characteristic">
+      <Value ID="id-a26bc9b6-2c11-4a6f-908b-60f980da32c1">
+        <ValueExpression xmlns:q26="avm" xsi:type="q26:DerivedValue" ValueSource="id-a5fae9fa-4e6a-4ee8-9fc6-c590fe91837c" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="effectiveness_nom">
+      <Value ID="id-3772947b-88a2-4fa4-9fde-6944ceacdb7b">
+        <ValueExpression xmlns:q27="avm" xsi:type="q27:DerivedValue" ValueSource="id-65b5d0d7-c9c8-42c6-8371-6b3c25d40670" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="dp_nom">
+      <Value ID="id-64c8c005-adcb-48f9-8d84-0927f70d4811">
+        <ValueExpression xmlns:q28="avm" xsi:type="q28:DerivedValue" ValueSource="id-cc89c0ba-243d-4fcf-b419-c7b3af167aa5" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="crank_speed">
+      <Value ID="id-4464ca32-fd83-4416-86e2-5b9f90467d8a">
+        <ValueExpression xmlns:q29="avm" xsi:type="q29:DerivedValue" ValueSource="id-2a187058-da6e-441c-ad7b-89a4772af9fa" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="cooling_Q_nom">
+      <Value ID="id-970b8689-af54-4e05-9864-6f3f819cdc29">
+        <ValueExpression xmlns:q30="avm" xsi:type="q30:DerivedValue" ValueSource="id-ff3bda8d-76ff-4934-9676-1ee382326d11" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="color">
+      <Value ID="id-beb5ea11-de88-400b-933c-60e95efa34c4">
+        <ValueExpression xmlns:q31="avm" xsi:type="q31:DerivedValue" ValueSource="id-4c19da68-967b-46a2-b546-bcd454e4cf1b" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="case_thermal_conductivity">
+      <Value ID="id-51d57e3c-309b-405f-b94e-3a7d0001a784">
+        <ValueExpression xmlns:q32="avm" xsi:type="q32:DerivedValue" ValueSource="id-7ddf6d63-694a-420d-9d08-780f1cba9f43" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="case_heat_transfer_thickness">
+      <Value ID="id-1fdfa138-1ecc-4740-b15e-26daa57e5ec9">
+        <ValueExpression xmlns:q33="avm" xsi:type="q33:DerivedValue" ValueSource="id-5304471a-5a2a-4a9a-bbd8-9ab62feeaf26" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="case_heat_transfer_area">
+      <Value ID="id-ed86e62a-543d-4158-b3aa-a125d8385c6b">
+        <ValueExpression xmlns:q34="avm" xsi:type="q34:DerivedValue" ValueSource="id-c2b4e2c2-7b50-4264-843d-ee3e530d6637" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="c_of_g_position">
+      <Value ID="id-f3147968-c8ba-419a-b9c0-76921a56a45e">
+        <ValueExpression xmlns:q35="avm" xsi:type="q35:DerivedValue" ValueSource="id-d4aea456-63f6-4769-a161-dfbbe45cbdb4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="animation">
+      <Value ID="id-7fa4eb54-82e4-43db-a9a0-bc2b2fe15978">
+        <ValueExpression xmlns:q36="avm" xsi:type="q36:DerivedValue" ValueSource="id-f94f290b-46ab-4835-b3fa-cdadb2f78061" />
+      </Value>
+    </Parameter>
+    <Connector ID="id-d7fee74d-6677-4dd0-ac17-6b52f05f1e89" PortMap="id-0393c17b-ac49-47f6-9617-c10b9ad066c9" Name="mount_04" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-c536f2cd-91dd-4037-b687-fa11f49c1ea4" PortMap="id-bd318e8b-96c7-46fb-b7d3-5608937775e0" Name="mount_03" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-318d99d4-6cae-4f93-8668-bc001e7c94ff" PortMap="id-657d5463-d8e1-49aa-adf1-2934c4fee2b6" Name="mount_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-91284294-a6e7-4a8e-b1d1-1f45ef3f6e11" PortMap="id-be31a28d-8584-4206-88d6-f6e59bb58d80" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-eb624c89-2e57-4e4e-946f-518a834afbe3" PortMap="id-7320c5f5-ad93-4a44-b436-30066fc340cb" Name="pin_n" Notes="" Definition="" Locator="" Class="Modelica.Electrical.Analog.Interfaces.NegativePin" />
+    <Connector ID="id-5500f180-dfa5-46e9-90ca-edb460e2afc7" PortMap="id-cf2a0c6a-7341-4a3d-90ba-ae75deddff1d" Name="pin_p" Notes="" Definition="" Locator="" Class="Modelica.Electrical.Analog.Interfaces.PositivePin" />
+    <Connector ID="id-30f131d5-6541-43a8-a29b-5d67d2eba52f" PortMap="id-9bb5e9cd-7c3c-4556-b012-c003c2f36ab5" Name="outer_surface_heat_port" Notes="" Definition="" Locator="" Class="Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a" />
+    <Connector ID="id-3bf446af-54bd-4387-ad60-4310d1bc6786" PortMap="id-2547500c-d73b-43a6-8f2a-736812062a16" Name="fluid_out" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q37="avm" xsi:type="q37:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-afaf3186-21d2-4f4c-a5db-790e6ca435de" PortMap="id-213bdd4a-72f2-4449-a9bf-743f292c18b5" Name="fluid_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q38="avm" xsi:type="q38:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-31940c90-f758-4727-bbfe-fb61a0f7c7a1" PortMap="id-db20ec02-f0b1-4f92-ac18-cfca8a2c0763" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-dabce7ad-134f-4929-bea9-3793506875ae" PortMap="id-44763067-e743-47ce-91f3-41c3905ed920" Name="brg_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-b9b230e5-2ae1-4edc-9ef9-e3d39ee3a7f8">
+          <ValueExpression xmlns:q39="avm" xsi:type="q39:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+    <Connector ID="id-2d681b85-28db-427d-95fc-39102d80ddfb" PortMap="id-9b196131-35b0-434f-8394-6bfaf5c30c6c" Name="brg_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-f6a9b7a6-6fd4-4e98-bdb1-8d37f95aa3d5">
+          <ValueExpression xmlns:q40="avm" xsi:type="q40:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Connector>
+    <Connector ID="id-adbd0adb-ec50-45f8-a2f2-0f76cce1e344" PortMap="id-aea80fbb-f097-4155-acc7-5d540b6fa27d" Name="to_cac" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q41="avm" xsi:type="q41:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-d199674d-9ff2-4cea-bea1-08116b1cf55d" PortMap="id-4b1daa8e-5827-46df-888d-4b98ebd2cdaf" Name="from_cac" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q42="avm" xsi:type="q42:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-a2e36da0-e197-47ff-b837-971be2e87d71" PortMap="id-42d780fd-0aa5-477a-8b29-bfa0c822e441" Name="fuel_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q43="avm" xsi:type="q43:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Constant_Property_JP8</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-f260175d-2015-4450-b2e5-652cc6974565" PortMap="id-2135f5af-6e0d-417f-9335-99dd7ce1a3d6" Name="bottom_hose_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q44="avm" xsi:type="q44:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-1e79b74d-a749-4c5e-ada8-4294a92b9d55" PortMap="id-74246d41-f73b-4e40-8ef5-8afc6867d31b" Name="top_hose_outlet" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q45="avm" xsi:type="q45:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-9c6f775e-f5f6-4ea6-8782-6d08ea852ac2" PortMap="id-a814cb89-693d-4f09-a976-70d6d2764ade" Name="engineControlBus" Notes="" Definition="" Locator="" Class="C2M2L_Ext.C2M2L_Component_Building_Blocks.Prime_Movers.Common_Controls.Engine_Control_Bus" />
+    <Redeclare Notes="" Type="Package" Locator="Transported_Fluid">
+      <Value>
+        <ValueExpression xmlns:q46="avm" xsi:type="q46:FixedValue">
+          <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+        </ValueExpression>
+      </Value>
+    </Redeclare>
+    <Redeclare Notes="" Type="Package" Locator="Fuel_Medium">
+      <Value>
+        <ValueExpression xmlns:q47="avm" xsi:type="q47:FixedValue">
+          <Value>C2M2L_Ext.Media.Incompressible.Constant_Property_JP8</Value>
+        </ValueExpression>
+      </Value>
+    </Redeclare>
+    <Redeclare Notes="" Type="Package" Locator="Coolant_Medium">
+      <Value>
+        <ValueExpression xmlns:q48="avm" xsi:type="q48:FixedValue">
+          <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+        </ValueExpression>
+      </Value>
+    </Redeclare>
+  </DomainModel>
+  <DomainModel xmlns:q49="cad" xsi:type="q49:CADModel" UsesResource="cad.path" Author="" Notes="" xmlns="">
+    <Datum xsi:type="q49:Plane" ID="id-12116c65-2026-478c-ad0a-cd4643594175" PortMap="" Name="Power_Out_Plane" Notes="" Definition="" DatumName="Power_Out_Plane" />
+    <Datum xsi:type="q49:Axis" ID="id-60cc4ad3-f7b5-4b2b-bc34-379cbb7bbbc1" PortMap="" Name="Power_Out_Middle" Notes="" Definition="" DatumName="Power_Out_Middle" />
+    <Datum xsi:type="q49:Axis" ID="id-291f8f77-3d43-4c7f-852f-da57d7b41d26" PortMap="id-9fd31dcb-8ab3-4590-8135-d777bdb2f87e" Name="Power_Out_Outer" Notes="" Definition="" DatumName="Power_Out_Outer" />
+  </DomainModel>
+  <Property xmlns:q50="avm" xsi:type="q50:PrimitiveProperty" Name="voleff" ID="property.id-c7a3d7e4-c4de-4bd6-b414-8eef7255e505" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-c7a3d7e4-c4de-4bd6-b414-8eef7255e505">
+      <ValueExpression xsi:type="q50:FixedValue">
+        <Value>[0,600,1200,1500,1800;0,0.867641652,0.867641652,0.867641652,0.867641652;300,0.867641652,1,1.05,1.1;400,0.867641652,1.027886075,1.074580184,1.122243498;500,0.867641652,1.027886075,1.169487592,1.318243069;600,0.867641652,1.098542293,1.264395,1.514242641;700,0.867641652,1.169198511,1.359303369,1.514242641;800,0.867641652,1.239854728,1.454211738,1.514242641;900,0.867641652,1.310510946,1.454211738,1.706250056;1000,0.867641652,1.391266152,1.693757702,1.898257471;1200,0.867641652,1.552776565,1.933303667,2.059404565;1300,0.867641652,1.633531772,1.933303667,2.220551658;1400,0.867641652,1.712133134,2.11370574,2.220551658;1600,0.867641652,1.790734496,2.294107813,2.220551658;1700,0.867641652,1.869335858,2.294107813,2.220551658;1800,0.867641652,1.94793722,2.3,2.220551658]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q51="avm" xsi:type="q51:PrimitiveProperty" Name="has_mass" ID="property.id-b2290b5f-6375-42ef-aa4a-3811f9f91442" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-b2290b5f-6375-42ef-aa4a-3811f9f91442">
+      <ValueExpression xsi:type="q51:FixedValue">
+        <Value>true</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q52="avm" xsi:type="q52:PrimitiveProperty" Name="flow_characteristic" ID="property.id-06280616-49ae-4e2e-b6e9-3e10adb4a221" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-06280616-49ae-4e2e-b6e9-3e10adb4a221">
+      <ValueExpression xsi:type="q52:FixedValue">
+        <Value>[0.0,131241.618382;0.00006,130803.846541;0.00012,130356.866637;0.00018,129900.214488;0.00024,129433.42591;0.0003,128956.036721;0.00036,128467.582739;0.00042,127967.59978;0.00048,127455.623662;0.00054,126931.190203;0.0006,126393.835218;0.00066,125843.094526;0.00072,125278.503944;0.00078,124699.599289;0.00084,124105.916378;0.0009,123496.991028;0.00096,122872.359058;0.00102,122231.556284;0.00108,121574.118523;0.00114,120899.581592;0.0012,120207.481309;0.00126,119497.353492;0.00132,118768.733956;0.00138,118021.158521;0.00144,117254.163002;0.0015,116467.283217;0.00156,115660.054983;0.00162,114832.014119;0.00168,113982.696439;0.00174,113111.637763;0.0018,112218.373908;0.00186,111302.44069;0.00192,110363.373926;0.00198,109400.709435;0.00204,108413.983034;0.0021,107402.730538;0.00216,106366.487767;0.00222,105304.790537;0.00228,104217.174665;0.00234,103103.175968;0.0024,101962.330265;0.00246,100794.173372;0.00252,99598.2411056;0.00258,98374.0692841;0.00264,97121.1937246;0.0027,95839.1502441;0.00276,94527.4746601;0.00282,93185.7027896;0.00288,91813.37045;0.00294,90410.0134585;0.003,88975.1676324;0.00306,87508.3687888;0.00312,86009.1527452;0.00318,84477.0553187;0.00324,82911.6123265;0.0033,81312.359586;0.00336,79678.8329143;0.00342,78010.5681288;0.00348,76307.1010467;0.00354,74567.9674852;0.0036,72792.7032615;0.00366,70980.844193;0.00372,69131.9260969;0.00378,67245.4847904;0.00384,65321.0560908;0.0039,63358.1758154;0.00396,61356.3797813;0.00402,59315.2038059;0.00408,57234.1837064;0.00414,55112.8553;0.0042,52950.754404;0.00426,50747.4168357;0.00432,48502.3784122;0.00438,46215.1749509;0.00444,43885.3422691;0.0045,41512.4161838;0.00456,39095.9325125;0.00462,36635.4270723;0.00468,34130.4356806;0.00474,31580.4941545;0.0048,28985.1383113;0.00486,26343.9039683;0.00492,23656.3269427;0.00498,20921.9430517;0.00504,18140.2881127;0.0051,15310.8979429;0.00516,12433.3083594;0.00522,9507.05517966;0.00528,6531.67422083;0.00534,3506.70130017;0.0054,431.672234942;0.00546,-2693.87715761;0.00552,-5870.41106023;0.00558,-9098.39365567;0.00564,-12378.2891267;0.0057,-15710.561656;0.00576,-19095.6754264;0.00582,-22534.0946206;0.00588,-26026.2834213;0.00594,-29572.7060114;0.006,-33173.8265735]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q53="avm" xsi:type="q53:PrimitiveProperty" Name="engine_displacement" ID="property.id-a5aec3c4-fa64-4a5c-afe2-2c550c241bc4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-a5aec3c4-fa64-4a5c-afe2-2c550c241bc4">
+      <ValueExpression xsi:type="q53:FixedValue">
+        <Value>10</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q54="avm" xsi:type="q54:PrimitiveProperty" Name="efficiency_characteristic" ID="property.id-a5fae9fa-4e6a-4ee8-9fc6-c590fe91837c" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-a5fae9fa-4e6a-4ee8-9fc6-c590fe91837c">
+      <ValueExpression xsi:type="q54:FixedValue">
+        <Value>[-1,0.8;0,0.8;1,0.8]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q55="avm" xsi:type="q55:PrimitiveProperty" Name="effectiveness_nom" ID="property.id-65b5d0d7-c9c8-42c6-8371-6b3c25d40670" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-65b5d0d7-c9c8-42c6-8371-6b3c25d40670">
+      <ValueExpression xsi:type="q55:FixedValue">
+        <Value>0.95</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q56="avm" xsi:type="q56:PrimitiveProperty" Name="color" ID="property.id-4c19da68-967b-46a2-b546-bcd454e4cf1b" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-4c19da68-967b-46a2-b546-bcd454e4cf1b">
+      <ValueExpression xsi:type="q56:FixedValue">
+        <Value>{0,128,255}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q57="avm" xsi:type="q57:PrimitiveProperty" Name="animation" ID="property.id-f94f290b-46ab-4835-b3fa-cdadb2f78061" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f94f290b-46ab-4835-b3fa-cdadb2f78061">
+      <ValueExpression xsi:type="q57:FixedValue">
+        <Value>world.enableAnimation and world.driveTrainMechanics3D</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q58="avm" xsi:type="q58:PrimitiveProperty" Name="Height" ID="property.id-a88f298f-94c9-4795-a844-c4e8bb4f9dbf" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-a88f298f-94c9-4795-a844-c4e8bb4f9dbf">
+      <ValueExpression xsi:type="q58:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q59="avm" xsi:type="q59:PrimitiveProperty" Name="Width" ID="property.id-3c259cff-4963-4ba4-98bb-84811c4953f7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-3c259cff-4963-4ba4-98bb-84811c4953f7">
+      <ValueExpression xsi:type="q59:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q60="avm" xsi:type="q60:PrimitiveProperty" Name="Length" ID="property.id-e63700d3-9f79-4435-b21a-e0c2f0506f7b" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-e63700d3-9f79-4435-b21a-e0c2f0506f7b">
+      <ValueExpression xsi:type="q60:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q61="avm" xsi:type="q61:PrimitiveProperty" Name="v_nom" ID="property.id-f96584b6-e98b-4f76-bec5-1b8a30e6c51e" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f96584b6-e98b-4f76-bec5-1b8a30e6c51e">
+      <ValueExpression xsi:type="q61:FixedValue">
+        <Value>24</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q62="avm" xsi:type="q62:PrimitiveProperty" Name="V_dot_nom" ID="property.id-1224b1c4-e888-45dd-9009-0f6c67709f55" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-1224b1c4-e888-45dd-9009-0f6c67709f55">
+      <ValueExpression xsi:type="q62:FixedValue">
+        <Value>0.003</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q63="avm" xsi:type="q63:PrimitiveProperty" Name="transform_mount_04" ID="property.id-11882069-7dba-4d06-9029-5116a0cef1d5" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-11882069-7dba-4d06-9029-5116a0cef1d5">
+      <ValueExpression xsi:type="q63:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q64="avm" xsi:type="q64:PrimitiveProperty" Name="transform_mount_03" ID="property.id-f2be57b5-64db-4cac-b4dd-6d502bdc493d" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f2be57b5-64db-4cac-b4dd-6d502bdc493d">
+      <ValueExpression xsi:type="q64:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q65="avm" xsi:type="q65:PrimitiveProperty" Name="transform_mount_02" ID="property.id-fd291356-f54e-4cb4-8e0f-20af3b85e758" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-fd291356-f54e-4cb4-8e0f-20af3b85e758">
+      <ValueExpression xsi:type="q65:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q66="avm" xsi:type="q66:PrimitiveProperty" Name="transform_mount_01" ID="property.id-1178d023-950f-476d-b8de-e691f066c95a" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-1178d023-950f-476d-b8de-e691f066c95a">
+      <ValueExpression xsi:type="q66:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q67="avm" xsi:type="q67:PrimitiveProperty" Name="transform_brg_02" ID="property.id-42d604a1-9e18-4e45-9e4e-13d69928dcbb" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-42d604a1-9e18-4e45-9e4e-13d69928dcbb">
+      <ValueExpression xsi:type="q67:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q68="avm" xsi:type="q68:PrimitiveProperty" Name="transform_brg_01" ID="property.id-e1788ea4-ac26-4ad8-a83e-423750c2471b" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-e1788ea4-ac26-4ad8-a83e-423750c2471b">
+      <ValueExpression xsi:type="q68:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q69="avm" xsi:type="q69:PrimitiveProperty" Name="torque_curve" ID="property.id-729ac42b-3dbd-4b8a-acdc-9b4ecfcfa09d" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-729ac42b-3dbd-4b8a-acdc-9b4ecfcfa09d">
+      <ValueExpression xsi:type="q69:FixedValue">
+        <Value>[562.5004751,420;700.0005913,1000;750.0006335,1225;800.0006757,1360;850.000718,1480;900.0007602,1585;950.0008024,1685;1000.000845,1775;1050.000887,1860;1100.000929,1945;1150.000971,2025;1200.001014,2065;1250.001056,2080;1300.001098,2080;1350.00114,2060;1400.001183,2035;1450.001225,2010;1500.001267,1975;1550.001309,1925;1600.001351,1875;1650.001394,1825;1700.001436,1775;1750.001478,1725;1800.00152,1675;1850.001563,1625;1900.001605,1585;1950.001647,1535;2000.001689,1485;2050.001732,1440;2100.001774,1390;2150.001816,1330;2250,0;2255,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q70="avm" xsi:type="q70:PrimitiveProperty" Name="T_inlet_nom" ID="property.id-88fe1e70-0d9c-4e68-be30-882ba3dc5335" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-88fe1e70-0d9c-4e68-be30-882ba3dc5335">
+      <ValueExpression xsi:type="q70:FixedValue">
+        <Value>358.15</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q71="avm" xsi:type="q71:PrimitiveProperty" Name="r_shape" ID="property.id-f59cebed-0e90-4fd7-ad57-3121e9e87662" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f59cebed-0e90-4fd7-ad57-3121e9e87662">
+      <ValueExpression xsi:type="q71:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q72="avm" xsi:type="q72:PrimitiveProperty" Name="N_ref" ID="property.id-503030c1-3a92-46f7-a816-96ea84de51f4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-503030c1-3a92-46f7-a816-96ea84de51f4">
+      <ValueExpression xsi:type="q72:FixedValue">
+        <Value>209.43951023932</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q73="avm" xsi:type="q73:PrimitiveProperty" Name="mass" ID="property.id-66ecddfa-c7c7-4ee5-97ad-abe92380ccb7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-66ecddfa-c7c7-4ee5-97ad-abe92380ccb7">
+      <ValueExpression xsi:type="q73:FixedValue">
+        <Value>1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q74="avm" xsi:type="q74:PrimitiveProperty" Name="Jengine" ID="property.id-4b89a9e3-a5bb-4396-b793-eabface1745c" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-4b89a9e3-a5bb-4396-b793-eabface1745c">
+      <ValueExpression xsi:type="q74:FixedValue">
+        <Value>3.75</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q75="avm" xsi:type="q75:PrimitiveProperty" Name="J_xxyyzz" ID="property.id-585c8c73-660e-4b07-a243-bdb679b3b9b4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-585c8c73-660e-4b07-a243-bdb679b3b9b4">
+      <ValueExpression xsi:type="q75:FixedValue">
+        <Value>{0.001,0.001,0.001,0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q76="avm" xsi:type="q76:PrimitiveProperty" Name="fuel_map" ID="property.id-f0e99052-b14e-4161-b01b-864f1cd66a35" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f0e99052-b14e-4161-b01b-864f1cd66a35">
+      <ValueExpression xsi:type="q76:FixedValue">
+        <Value>[0,0,10,500.0004223,550.0004646,600.0005068,650.000549,700.0005913,750.0006335,800.0006757,850.000718,900.0007602,950.0008024,1000.000845,1050.000887,1100.000929,1150.000971,1200.001014,1250.001056,1300.001098,1350.00114,1400.001183,1450.001225,1500.001267,1550.001309,1600.001351,1650.001394,1700.001436,1750.001478,1800.00152,1850.001563,1900.001605,1950.001647,2000.001689,2050.001732,2100.001774,2150.001816,2200.001858,2250.0019;0,0,0,0.000115077,0.000134841,0.000157082,0.000179875,0.000207374,0.000234876,0.000261386,0.000291112,0.00032447,0.000358984,0.000388806,0.000425181,0.000469451,0.000503569,0.000546567,0.0006147,0.000690695,0.000757855,0.000830525,0.000923075,0.001003919,0.001082698,0.001182413,0.001283234,0.001374041,0.001458324,0.001582554,0.001698684,0.001792534,0.001896859,0.002015258,0.002136724,0.002289975,0.002394179,0.002556089,0.002698939;70.05060006,0,0,0.000357347,0.000396983,0.000438847,0.000478967,0.000520609,0.000566196,0.000605333,0.000651545,0.000704011,0.000754256,0.000801822,0.000851797,0.000906041,0.00094958,0.001009562,0.001087556,0.001184368,0.001253784,0.001365088,0.001437915,0.00155706,0.001661825,0.001756577,0.00185663,0.00199224,0.002101612,0.002218382,0.002333051,0.002469539,0.002592001,0.002730314,0.002859046,0.003012337,0.003133989,0.003293779,0.003461377;140.1012001,0,0,0.000599708,0.000648694,0.000708328,0.000766908,0.000838683,0.000887612,0.000951407,0.001025648,0.001067673,0.001150541,0.001201261,0.001278282,0.001350712,0.001411658,0.001475311,0.001579904,0.001680621,0.001773634,0.00186571,0.001972046,0.002103904,0.002226054,0.002312078,0.002449318,0.002587895,0.00268291,0.002833754,0.002957563,0.003137412,0.00325725,0.003436602,0.0035697,0.00375666,0.003909565,0.004083891,0.004273732;210.1518002,0,0,0.000828053,0.000905628,0.000990726,0.001058494,0.001144932,0.001214673,0.001295964,0.001377572,0.001468351,0.001530065,0.001614283,0.001681968,0.001772218,0.001871811,0.001952415,0.002032151,0.00214057,0.002270388,0.002369926,0.002511775,0.002612639,0.002748628,0.002923005,0.003051573,0.003149479,0.003329422,0.003473512,0.003627706,0.003772651,0.00394143,0.004157803,0.004346105,0.004472209,0.0046636,0.004865091,0.005114112;280.2024002,0,0,0.001075936,0.001172941,0.001274854,0.001370625,0.001455299,0.001563224,0.001660534,0.001745645,0.001832013,0.001913631,0.002028647,0.002126145,0.002195082,0.002322944,0.002393616,0.002525453,0.002671998,0.002754556,0.002905384,0.003072071,0.003182469,0.003329846,0.003495536,0.003630398,0.003807147,0.003921153,0.004084166,0.004275935,0.004434841,0.00465945,0.004813804,0.005017551,0.005215954,0.005449868,0.005690319,0.005955481;350.2530003,0,0,0.001322565,0.001421465,0.001557601,0.00165054,0.001774169,0.00188381,0.002007638,0.002112904,0.002213298,0.002294493,0.002434271,0.002523673,0.002623304,0.002741966,0.002871303,0.002972217,0.003120798,0.003255239,0.003426645,0.003548528,0.003743814,0.003853752,0.004037267,0.004204037,0.004442107,0.004580722,0.004736006,0.00492388,0.005188689,0.0053141,0.005609333,0.005778653,0.006059417,0.006295564,0.006489461,0.006661956;420.3036003,0,0,0.001554639,0.001699166,0.001811233,0.001955902,0.002099137,0.002223466,0.002321325,0.002469554,0.002598381,0.002733371,0.002842161,0.002928576,0.003094608,0.003199881,0.003316755,0.003482078,0.00360855,0.003804304,0.003923034,0.004077374,0.004278201,0.004421149,0.004590714,0.004858417,0.004996542,0.005158069,0.005357129,0.005601556,0.005858407,0.00599737,0.006304847,0.0065581,0.006816798,0.006995613,0.007301837,0.007497616;490.3542004,0,0,0.001807824,0.001956499,0.002097762,0.002263333,0.002402906,0.002517197,0.002693621,0.002811624,0.002969092,0.003076745,0.003218626,0.003399024,0.003545868,0.003659694,0.003826696,0.003951532,0.004119462,0.00427216,0.004484229,0.004653266,0.004846958,0.005071501,0.005196311,0.00543916,0.005668657,0.00583742,0.006097476,0.006294829,0.006470421,0.006733115,0.006955381,0.007232631,0.007482187,0.007866234,0.008037662,0.008337939;560.4048004,0,0,0.002036092,0.002185866,0.002364543,0.002540243,0.00271881,0.002886187,0.003052666,0.0031862,0.003362409,0.003457437,0.003634524,0.00380104,0.003921823,0.004135659,0.004275741,0.004433496,0.004649183,0.004805937,0.005019275,0.005235527,0.005354848,0.005572661,0.005844605,0.006073066,0.006220582,0.006458678,0.006740624,0.006977103,0.00721282,0.007497557,0.007742057,0.008040882,0.008362483,0.008608584,0.008867068,0.009170346;630.4554005,0,0,0.002257567,0.002467794,0.002675342,0.00284593,0.002995089,0.003165995,0.003346948,0.003566379,0.003680615,0.003885091,0.00408557,0.004212524,0.004397487,0.004525951,0.004755746,0.00487956,0.005113773,0.005353434,0.005508666,0.005781315,0.00597662,0.006146354,0.006348415,0.006624572,0.006883208,0.007064022,0.007378966,0.007621634,0.007916153,0.008093021,0.008500802,0.00880721,0.009061799,0.009338996,0.009702039,0.010115007;700.5060006,0,0,0.002484499,0.002698238,0.002925589,0.003104628,0.003304758,0.003550228,0.003678892,0.003886873,0.004102561,0.004264028,0.004433628,0.00464125,0.004826817,0.005020603,0.005233626,0.005404906,0.005634196,0.00576674,0.005996037,0.006205576,0.006536924,0.006784112,0.007039717,0.007208007,0.007494016,0.007758994,0.008054669,0.008301443,0.008603607,0.008843489,0.00918076,0.009455755,0.009868793,0.010143845,0.010617307,0.010818546;770.5566006,0,0,0.002732385,0.002974377,0.003225061,0.003416013,0.003603968,0.0038798,0.004042562,0.004265259,0.00448914,0.00466634,0.004877442,0.0050133,0.00520751,0.00541228,0.00566104,0.005867669,0.006148112,0.006361315,0.006529102,0.006866272,0.007037468,0.007355363,0.007573933,0.007789419,0.008177144,0.008415082,0.008628315,0.008948014,0.009288249,0.00956245,0.010012595,0.010269215,0.010657043,0.011082045,0.01139578,0.011688953;840.6072007,0,0,0.00299129,0.003260322,0.003471621,0.003712241,0.003981027,0.004162821,0.004406188,0.004603203,0.004848076,0.005038012,0.005217561,0.005515822,0.005638551,0.005882173,0.006138352,0.0063399,0.00656249,0.006818514,0.007139423,0.007277906,0.007552308,0.00789139,0.00815197,0.008443037,0.008802596,0.0089559,0.009277344,0.00958275,0.009928593,0.010407144,0.010767236,0.011064698,0.01131228,0.011908425,0.012226302,0.012517;910.6578007,0,0,0.003216134,0.003483667,0.003727712,0.004030699,0.004229468,0.004461442,0.004776539,0.005026396,0.005233455,0.005421065,0.005727613,0.005867425,0.006069297,0.006320983,0.006520323,0.006802302,0.00703797,0.007297502,0.007678125,0.007925697,0.008129177,0.008529737,0.008778909,0.00912278,0.009316539,0.009753951,0.009913522,0.010246687,0.010697352,0.011008774,0.011440212,0.011722308,0.012302719,0.012506738,0.012942023,0.013455971;980.7084008,0,0,0.00346327,0.003740348,0.004012176,0.004323632,0.004555522,0.004839654,0.005090728,0.005288571,0.005621454,0.00583595,0.006080784,0.006367581,0.006510202,0.006834616,0.007071574,0.007269451,0.007653234,0.007868246,0.008137207,0.008502116,0.008804794,0.008965911,0.009314721,0.009674163,0.010077612,0.010362149,0.010686452,0.010993431,0.011303646,0.011694833,0.012169998,0.012631742,0.012933236,0.013334194,0.013962171,0.014385005;1050.759001,0,0,0.003677872,0.003967137,0.004313352,0.004613478,0.00487842,0.00516083,0.005393888,0.005656384,0.006004634,0.006183179,0.006453491,0.006739075,0.007018065,0.00724722,0.007564644,0.007821356,0.008163492,0.008397831,0.008601057,0.009004931,0.009303597,0.009518848,0.010008583,0.010316464,0.010538598,0.011037697,0.011420607,0.011643522,0.012020386,0.012588258,0.013046583,0.01327526,0.013873753,0.014384339,0.014667764,0.015256557;1120.809601,0,0,0.003931094,0.004261234,0.00454188,0.004890058,0.005177477,0.005484366,0.005786588,0.006043486,0.006344013,0.006550229,0.006837473,0.007164386,0.007450865,0.007666174,0.007994788,0.008268723,0.008554573,0.008916318,0.009216168,0.009467362,0.009919672,0.010231056,0.010536456,0.010956879,0.011342154,0.011587639,0.01194467,0.012401861,0.012784508,0.013336535,0.013670403,0.014160269,0.014677751,0.015108747,0.015685437,0.016035555;1190.860201,0,0,0.004168882,0.004481686,0.004843021,0.005199923,0.005430119,0.005753059,0.00609522,0.006411217,0.006712729,0.006979124,0.007223317,0.007513525,0.007807537,0.008118786,0.00841761,0.008741523,0.009118388,0.009453152,0.009706962,0.010066364,0.010510908,0.0108627,0.011087475,0.011408834,0.011843639,0.012258113,0.012582015,0.013125443,0.013553887,0.013970755,0.014454671,0.014797075,0.015347466,0.015807182,0.016451679,0.017075723;1260.910801,0,0,0.004397181,0.004757047,0.005103052,0.005491066,0.005831324,0.006158052,0.006383534,0.006760492,0.0070166,0.007411542,0.00770397,0.00802494,0.008359863,0.008666293,0.008957514,0.009165463,0.009594792,0.009855532,0.010207109,0.010626353,0.010935797,0.011337457,0.011712058,0.012085334,0.012594147,0.012999442,0.013397101,0.013751069,0.014172464,0.014810247,0.015235835,0.015700934,0.016293985,0.016644077,0.017285695,0.017768817;1330.961401,0,0,0.004651163,0.005026823,0.005402895,0.005766842,0.006061432,0.006487762,0.006843933,0.007121371,0.007487373,0.007826556,0.008121261,0.008456308,0.008785913,0.009064373,0.009295403,0.009715569,0.009988033,0.010339149,0.010802942,0.01125246,0.011575269,0.012000549,0.012269241,0.01267643,0.013191945,0.013525161,0.014115653,0.014486879,0.015029543,0.015500716,0.015916054,0.016528683,0.017148035,0.017749178,0.018321747,0.018778942;1401.012001,0,0,0.004868125,0.005268141,0.005672144,0.005970351,0.006417673,0.006731039,0.007147921,0.007520983,0.007815652,0.008226698,0.008541171,0.008921184,0.009227145,0.009536486,0.009822676,0.010242214,0.010575352,0.011010919,0.011302544,0.011657088,0.012215878,0.012565798,0.012986346,0.013348034,0.013769634,0.014290683,0.014740778,0.01530434,0.015688458,0.01632077,0.016784045,0.017251392,0.018000138,0.018483624,0.018983713,0.019807532;1471.062601,0,0,0.005084936,0.005458776,0.00593416,0.006288746,0.006705037,0.007120778,0.007409511,0.007822573,0.008223948,0.008592197,0.008875517,0.009276453,0.009626549,0.010026559,0.010408733,0.010669618,0.011086296,0.011514068,0.011913256,0.012178626,0.012588932,0.013140048,0.013414875,0.014120182,0.014448596,0.014856152,0.015279907,0.015778582,0.016450611,0.016915405,0.017692328,0.01805522,0.018849983,0.019250228,0.019863646,0.020545776;1541.113201,0,0,0.005322789,0.005760758,0.006144848,0.006579486,0.007019394,0.007385693,0.00788008,0.008154316,0.008590492,0.008907259,0.009299089,0.009645807,0.009964867,0.01039708,0.010727767,0.01110816,0.011517292,0.012030419,0.012294601,0.012942519,0.013381089,0.01381138,0.014049788,0.014509783,0.015113865,0.015674113,0.016055315,0.016715072,0.017077274,0.017767526,0.018364758,0.019097406,0.019658994,0.020167293,0.020711705,0.021391838;1611.163801,0,0,0.005585518,0.006046334,0.006470078,0.006881721,0.007337968,0.007706548,0.008128958,0.008600037,0.008956296,0.009412755,0.00963958,0.010207281,0.010398253,0.010972285,0.011184975,0.011718407,0.012009637,0.012512584,0.012829528,0.0134051,0.013778829,0.014205722,0.014634989,0.015223219,0.015681341,0.016192232,0.016789262,0.017301545,0.01802162,0.018672868,0.019055634,0.019606547,0.020318571,0.020995307,0.021948286,0.022369534;1681.214401,0,0,0.00580822,0.006239558,0.006725818,0.007139663,0.007598026,0.00799661,0.008437593,0.008858054,0.009240434,0.009632173,0.010052063,0.010562072,0.011024636,0.011266265,0.01175001,0.012083814,0.012547809,0.013101742,0.013421004,0.014077723,0.014457881,0.014888169,0.015515448,0.015774752,0.016279644,0.016911205,0.017575726,0.018203882,0.018572337,0.019327737,0.020080611,0.020663778,0.0214107,0.022161204,0.022609906,0.023371961;1751.265001,0,0,0.006024714,0.006524754,0.006973102,0.007467878,0.007965018,0.008346405,0.00876786,0.0093003,0.009735957,0.010048707,0.010506915,0.011003701,0.0112886,0.011873966,0.012182415,0.012726615,0.013171612,0.013452978,0.014120787,0.014422004,0.015045127,0.015438329,0.015986429,0.01667792,0.016990224,0.017617956,0.018109371,0.018640698,0.019358914,0.019885114,0.020795869,0.02145395,0.022212409,0.023022136,0.023531056,0.024393712;1821.315601,0,0,0.006272467,0.006799419,0.007236376,0.007695629,0.008155356,0.008670651,0.009106478,0.009672616,0.010037909,0.010507354,0.010960744,0.011448319,0.011745923,0.012329444,0.012592855,0.013187059,0.013701727,0.014060923,0.014664001,0.015039247,0.015403357,0.016007313,0.016716368,0.01707071,0.017727,0.018115521,0.01888072,0.019690098,0.020004921,0.020978982,0.021659837,0.022280838,0.022975004,0.023647303,0.024311889,0.02559746;1891.366202,0,0,0.006451807,0.007065943,0.007524016,0.008031644,0.008482568,0.009054633,0.009543535,0.009909258,0.010355249,0.010971986,0.011240071,0.011812855,0.012327586,0.01261866,0.013166196,0.013694648,0.014173035,0.014572982,0.015143891,0.015588356,0.016204265,0.016764909,0.017131201,0.017687068,0.018377646,0.019015188,0.019588018,0.020158352,0.020765252,0.021555828,0.022338739,0.022873158,0.023919424,0.024481686,0.02534381,0.02629189;1961.416802,0,0,0.006644101,0.007278485,0.007740381,0.00824903,0.008828371,0.009303714,0.009845574,0.010417954,0.010786239,0.011292367,0.011774379,0.012270877,0.012786042,0.013133381,0.01365294,0.014200706,0.014710744,0.015224217,0.015763964,0.016080231,0.01658222,0.017370076,0.017916173,0.018290227,0.019046945,0.019666603,0.020390539,0.020815857,0.021869176,0.022230402,0.022930344,0.023677488,0.024656159,0.025679501,0.02638297,0.027530874;2031.467402,0,0,0.006991992,0.007541484,0.008060435,0.00863469,0.00915203,0.009640107,0.01011446,0.010721655,0.011211114,0.011601947,0.012173628,0.012510673,0.012996707,0.013525757,0.013990039,0.014574776,0.015208654,0.015583794,0.016138746,0.016631649,0.017241436,0.017782328,0.018353765,0.019213338,0.019591734,0.020354047,0.021136093,0.021535369,0.022461781,0.023355324,0.023785039,0.024910293,0.025395595,0.026504677,0.027371219,0.028347706;2101.518002,0,0,0.00711227,0.007825692,0.008386875,0.008821081,0.009531429,0.010064099,0.010446801,0.011058935,0.011485645,0.011931689,0.012452276,0.01316248,0.013495873,0.0141893,0.014528201,0.014996621,0.015470075,0.016294783,0.016789196,0.017403116,0.017701422,0.018529787,0.019158365,0.019546969,0.020381831,0.020910089,0.021522199,0.022246257,0.023312282,0.023847191,0.024739252,0.025439506,0.026378624,0.027245106,0.028302627,0.029169502;2206.593902,0,0,0.007561035,0.008160022,0.008767591,0.009368683,0.009916778,0.010523499,0.011094384,0.011516654,0.012133043,0.012525073,0.01328019,0.013556141,0.014341048,0.014597805,0.015248034,0.015901825,0.016412546,0.01700199,0.017579766,0.01817544,0.018789176,0.0195313,0.019943298,0.020785771,0.021429322,0.022239235,0.022849524,0.023330276,0.024443997,0.025100091,0.026140335,0.027033896,0.027525471,0.028760312,0.029741564,0.030796861;2416.745702,0,0,0.008201428,0.008778953,0.009596892,0.010103863,0.010792793,0.011495883,0.012075489,0.012693154,0.013148647,0.013725104,0.014330988,0.014805847,0.015454547,0.016070843,0.016773119,0.017262488,0.018027268,0.018470603,0.019064396,0.019678926,0.020359141,0.021230578,0.022064378,0.022415805,0.023237888,0.024362868,0.025094342,0.02577939,0.026504248,0.02739454,0.028258016,0.029405284,0.030489104,0.031149239,0.032686382,0.033448493]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q77="avm" xsi:type="q77:PrimitiveProperty" Name="friction_curve" ID="property.id-e6381dc4-0138-447e-921e-d3ec642da70a" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-e6381dc4-0138-447e-921e-d3ec642da70a">
+      <ValueExpression xsi:type="q77:FixedValue">
+        <Value>[0,1;1,120;10,120;187.5001584,220;375.0003167,325;562.5004751,425;700.0005913,500;750.0006335,527;800.0006757,555;850.000718,580;900.0007602,610;950.0008024,636;1000.000845,665;1050.000887,690;1100.000929,720;1150.000971,745;1200.001014,770;1250.001056,800;1300.001098,825;1350.00114,855;1400.001183,880;1450.001225,910;1500.001267,935;1550.001309,965;1600.001351,990;1650.001394,1020;1700.001436,1045;1750.001478,1070;1800.00152,1100;1850.001563,1125;1900.001605,1153;1950.001647,1180;2000.001689,1210;2050.001732,1235;2100.001774,1260;2150.001816,1290;2250,1290;2300,1290]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q78="avm" xsi:type="q78:PrimitiveProperty" Name="dp_nom" ID="property.id-cc89c0ba-243d-4fcf-b419-c7b3af167aa5" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-cc89c0ba-243d-4fcf-b419-c7b3af167aa5">
+      <ValueExpression xsi:type="q78:FixedValue">
+        <Value>50000</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q79="avm" xsi:type="q79:PrimitiveProperty" Name="crank_speed" ID="property.id-2a187058-da6e-441c-ad7b-89a4772af9fa" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-2a187058-da6e-441c-ad7b-89a4772af9fa">
+      <ValueExpression xsi:type="q79:FixedValue">
+        <Value>62.831853071796</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q80="avm" xsi:type="q80:PrimitiveProperty" Name="cooling_Q_nom" ID="property.id-ff3bda8d-76ff-4934-9676-1ee382326d11" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-ff3bda8d-76ff-4934-9676-1ee382326d11">
+      <ValueExpression xsi:type="q80:FixedValue">
+        <Value>200000</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q81="avm" xsi:type="q81:PrimitiveProperty" Name="case_thermal_conductivity" ID="property.id-7ddf6d63-694a-420d-9d08-780f1cba9f43" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-7ddf6d63-694a-420d-9d08-780f1cba9f43">
+      <ValueExpression xsi:type="q81:FixedValue">
+        <Value>50</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q82="avm" xsi:type="q82:PrimitiveProperty" Name="case_heat_transfer_thickness" ID="property.id-5304471a-5a2a-4a9a-bbd8-9ab62feeaf26" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5304471a-5a2a-4a9a-bbd8-9ab62feeaf26">
+      <ValueExpression xsi:type="q82:FixedValue">
+        <Value>0.005</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q83="avm" xsi:type="q83:PrimitiveProperty" Name="case_heat_transfer_area" ID="property.id-c2b4e2c2-7b50-4264-843d-ee3e530d6637" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-c2b4e2c2-7b50-4264-843d-ee3e530d6637">
+      <ValueExpression xsi:type="q83:FixedValue">
+        <Value>1.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q84="avm" xsi:type="q84:PrimitiveProperty" Name="c_of_g_position" ID="property.id-d4aea456-63f6-4769-a161-dfbbe45cbdb4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-d4aea456-63f6-4769-a161-dfbbe45cbdb4">
+      <ValueExpression xsi:type="q84:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Resource" Path="304G10003" Hash="" ID="cad.path" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-a34561b9-02a4-4018-9b88-7be9874d27e2" ApplyJoinData="" Notes="" Name="mount_04" Definition="" xmlns="">
+    <Role xmlns:q85="modelica" xsi:type="q85:Connector" ID="id-0393c17b-ac49-47f6-9617-c10b9ad066c9" PortMap="" Name="mount_04" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-aebbe0d7-312e-451c-a6ec-69a97238c1ae" ApplyJoinData="" Notes="" Name="mount_03" Definition="" xmlns="">
+    <Role xmlns:q86="modelica" xsi:type="q86:Connector" ID="id-bd318e8b-96c7-46fb-b7d3-5608937775e0" PortMap="" Name="mount_03" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-8eb14fde-868a-4e90-84a0-32b0e01f646a" ApplyJoinData="" Notes="" Name="mount_02" Definition="" xmlns="">
+    <Role xmlns:q87="modelica" xsi:type="q87:Connector" ID="id-657d5463-d8e1-49aa-adf1-2934c4fee2b6" PortMap="" Name="mount_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-b595676b-ea0a-4e1b-ba18-e421dd3b2da5" ApplyJoinData="" Notes="" Name="mount_01" Definition="" xmlns="">
+    <Role xmlns:q88="modelica" xsi:type="q88:Connector" ID="id-be31a28d-8584-4206-88d6-f6e59bb58d80" PortMap="" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-ac593ba6-fb16-46a1-ad70-04b69390b089" ApplyJoinData="" Notes="" Name="pin_n" Definition="" xmlns="">
+    <Role xmlns:q89="modelica" xsi:type="q89:Connector" ID="id-7320c5f5-ad93-4a44-b436-30066fc340cb" PortMap="" Name="pin_n" Notes="" Definition="" Locator="" Class="Modelica.Electrical.Analog.Interfaces.NegativePin" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-72978a69-8ee0-4f45-9722-6d25777df469" ApplyJoinData="" Notes="" Name="pin_p" Definition="" xmlns="">
+    <Role xmlns:q90="modelica" xsi:type="q90:Connector" ID="id-cf2a0c6a-7341-4a3d-90ba-ae75deddff1d" PortMap="" Name="pin_p" Notes="" Definition="" Locator="" Class="Modelica.Electrical.Analog.Interfaces.PositivePin" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-9a6d6c37-3086-4017-af9f-3fa978f8b56a" ApplyJoinData="" Notes="" Name="outer_surface_heat_port" Definition="" xmlns="">
+    <Role xmlns:q91="modelica" xsi:type="q91:Connector" ID="id-9bb5e9cd-7c3c-4556-b012-c003c2f36ab5" PortMap="" Name="outer_surface_heat_port" Notes="" Definition="" Locator="" Class="Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-95c2f0dc-505f-49b0-a886-50cf75386f6c" ApplyJoinData="" Notes="" Name="fluid_out" Definition="" xmlns="">
+    <Role xmlns:q92="modelica" xsi:type="q92:Connector" ID="id-2547500c-d73b-43a6-8f2a-736812062a16" PortMap="" Name="fluid_out" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q93="avm" xsi:type="q93:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-b433ad43-3018-4aca-b188-daecffbbbbdf" ApplyJoinData="" Notes="" Name="origin" Definition="" xmlns="">
+    <Role xmlns:q94="modelica" xsi:type="q94:Connector" ID="id-db20ec02-f0b1-4f92-ac18-cfca8a2c0763" PortMap="" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-9bde8c36-8cde-42e9-a953-5a6e9d84fd6f" ApplyJoinData="" Notes="" Name="fluid_in" Definition="" xmlns="">
+    <Role xmlns:q95="modelica" xsi:type="q95:Connector" ID="id-213bdd4a-72f2-4449-a9bf-743f292c18b5" PortMap="" Name="fluid_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q96="avm" xsi:type="q96:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-545e2273-b21a-4ba8-8e03-a74a92c4668f" ApplyJoinData="" Notes="" Name="brg_01" Definition="" xmlns="">
+    <Role xmlns:q97="modelica" xsi:type="q97:Connector" ID="id-44763067-e743-47ce-91f3-41c3905ed920" PortMap="" Name="brg_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-25023a37-7643-47fd-bc1d-9a9f28fb58d4">
+          <ValueExpression xmlns:q98="avm" xsi:type="q98:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5902f706-2db2-41fc-89ee-4ef55bba507f" ApplyJoinData="" Notes="" Name="brg_02" Definition="" xmlns="">
+    <Role xmlns:q99="cad" xsi:type="q99:Plane" ID="id-660366be-8c3b-453a-996d-3cc050dad713" PortMap="" Name="Mating_Plane" Notes="" Definition="" />
+    <Role xmlns:q100="cad" xsi:type="q100:Axis" ID="id-9fd31dcb-8ab3-4590-8135-d777bdb2f87e" PortMap="" Name="Outer" Notes="" Definition="" />
+    <Role xmlns:q101="cad" xsi:type="q101:Axis" ID="id-e752aa8a-b379-4db8-b254-93ef776ba165" PortMap="" Name="Middle" Notes="" Definition="" />
+    <Role xmlns:q102="modelica" xsi:type="q102:Connector" ID="id-9b196131-35b0-434f-8394-6bfaf5c30c6c" PortMap="" Name="brg_02" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.FlangeWithBearing">
+      <Parameter Locator="includeBearingConnector">
+        <Value ID="id-f503f468-b99e-4df3-9911-b0c4bfdeb7ba">
+          <ValueExpression xmlns:q103="avm" xsi:type="q103:FixedValue">
+            <Value>world.driveTrainMechanics3D</Value>
+          </ValueExpression>
+        </Value>
+      </Parameter>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5bf0e44b-291f-447e-b1e5-3db07dc61b28" ApplyJoinData="" Notes="" Name="to_cac" Definition="" xmlns="">
+    <Role xmlns:q104="modelica" xsi:type="q104:Connector" ID="id-aea80fbb-f097-4155-acc7-5d540b6fa27d" PortMap="" Name="to_cac" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q105="avm" xsi:type="q105:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-08a686d2-9729-42e2-8508-43fd3cc732d1" ApplyJoinData="" Notes="" Name="from_cac" Definition="" xmlns="">
+    <Role xmlns:q106="modelica" xsi:type="q106:Connector" ID="id-4b1daa8e-5827-46df-888d-4b98ebd2cdaf" PortMap="" Name="from_cac" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q107="avm" xsi:type="q107:FixedValue">
+            <Value>C2M2L_Ext.Media.Ideal_Gases.Simple_Air</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-f2e67771-9d0d-445c-b484-195520929eef" ApplyJoinData="" Notes="" Name="fuel_in" Definition="" xmlns="">
+    <Role xmlns:q108="modelica" xsi:type="q108:Connector" ID="id-42d780fd-0aa5-477a-8b29-bfa0c822e441" PortMap="" Name="fuel_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q109="avm" xsi:type="q109:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Constant_Property_JP8</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-263ca285-cde9-4f10-96f2-5337035cb175" ApplyJoinData="" Notes="" Name="bottom_hose_in" Definition="" xmlns="">
+    <Role xmlns:q110="modelica" xsi:type="q110:Connector" ID="id-2135f5af-6e0d-417f-9335-99dd7ce1a3d6" PortMap="" Name="bottom_hose_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q111="avm" xsi:type="q111:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-02e8c22f-174f-418b-94e8-2c7e356589a7" ApplyJoinData="" Notes="" Name="top_hose_outlet" Definition="" xmlns="">
+    <Role xmlns:q112="modelica" xsi:type="q112:Connector" ID="id-74246d41-f73b-4e40-8ef5-8afc6867d31b" PortMap="" Name="top_hose_outlet" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q113="avm" xsi:type="q113:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-00f09c86-b854-45a3-9714-4a2e005746f2" ApplyJoinData="" Notes="" Name="engineControlBus" Definition="" xmlns="">
+    <Role xmlns:q114="modelica" xsi:type="q114:Connector" ID="id-a814cb89-693d-4f09-a976-70d6d2764ade" PortMap="" Name="engineControlBus" Notes="" Definition="" Locator="" Class="C2M2L_Ext.C2M2L_Component_Building_Blocks.Prime_Movers.Common_Controls.Engine_Control_Bus" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

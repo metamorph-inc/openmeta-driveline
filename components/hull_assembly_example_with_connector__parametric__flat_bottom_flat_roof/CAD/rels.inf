@@ -1,0 +1,647 @@
+﻿CODING TABLE    SESSION ID      MODEL NAME
+                ----------      ----------
+
+CODING TABLE         0          E137_HULL_SOAPBAR_H1_GUS.PRT 
+CODING TABLE         3          E137_HULL_PANELS_H1_GUS.ASM 
+
+RELATION                           PARAMETER                 NEW VALUE
+--------                           ---------                 --- -----
+
+/*** Relations for E137_FLAT_3_ROOFFLAT_H1_GUS:
+
+
+Initial Relations
+-----------------
+
+/* SOAPBOX CONTROL OF ORIGINAL OVERALL SIZE
+d3:0=SOAPBOX_X                     D3:0                      9.398000e+03       
+d5:0=SOAPBOX_Y                     D5:0                      3.721100e+03       
+d4:0=SOAPBOX_Z                     D4:0                      3.289300e+03       
+                                                                                
+/* BOTTOM_FLAT_CUT
+d7:0=BCF_1                         D7:0                      7.800000e+02       
+d27:0=BCF_2                        D27:0                     6.000000e+02       
+d8:0=BCF_3                         D8:0                      4.064000e+02       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+/* ROOF_FLAT_CUT
+d17:0=ROC_1                        D17:0                     3.048000e+02       
+                                                                                
+/* FRONT_FLAT-NOSE_CUT
+d29:0=FC_1                         D29:0                     1.247600e+03       
+d28:0=FC_4                         D28:0                     1.000000e+03       
+d14:0=FC_5                         D14:0                     1.000000e+03       
+d12:0=FC_6                         D12:0                     1.524000e+02       
+d30:0=FC_7                         D30:0                     8.476000e+02       
+                                                                                
+/* REAR_SLANT_CUT
+d24:0=REC_1                        D24:0                     1.524000e+02       
+d25:0=REC_2                        D25:0                     6.096000e+02       
+                                                                                
+/* PANEL THICKNESS
+                                                                                
+d9:3=S5                            D9:3                      2.540000e+01       
+d10:3=S7                           D10:3                     2.540000e+01       
+d11:3=S8                           D11:3                     2.540000e+01       
+d12:3=S9                           D12:3                     2.540000e+01       
+d13:3=S10                          D13:3                     2.540000e+01       
+d14:3=S1                           D14:3                     2.540000e+01       
+d15:3=S2                           D15:3                     2.540000e+01       
+d16:3=S3                           D16:3                     2.540000e+01       
+d17:3=F1                           D17:3                     2.540000e+01       
+d18:3=F3                           D18:3                     2.540000e+01       
+d19:3=F4                           D19:3                     2.540000e+01       
+d20:3=R1                           D20:3                     2.540000e+01       
+
+Local Parameters
+----------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+SOAPBOX_X                       9.398000e+03         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+SOAPBOX_Y                       3.721100e+03         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+SOAPBOX_Z                       3.289300e+03         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+COMPONENT_CLASS                 HULL_ASSEMBLY_PARAME TYPE: String               
+                                TRIC                 SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: OUTPUT        
+
+PART_VOLUME                     7.801697e+10         TYPE: Real Number          
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: OUTPUT_PARAMET
+                                                     RIC                        
+                                                     UNIT: mm^3                 
+
+PART_SURFACE_AREA               3.857895e+08         TYPE: Real Number          
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: OUTPUT_PARAMET
+                                                     RIC                        
+                                                     UNIT: mm^2                 
+
+TOTAL_MASS                      8.645104e+03         TYPE: Real Number          
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: OUTPUT_PARAMET
+                                                     RIC                        
+                                                     UNIT: kg                   
+
+S1                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S2                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S3                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S4                              0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+S5                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S6                              0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+S7                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S8                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S9                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S10                             2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S11                             2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S12                             2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+S13                             2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+F1                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+F2                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+F3                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+F4                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+R1                              2.540000e+01         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+REC_1                           1.524000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+REC_2                           6.096000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+ROC_1                           3.048000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+ROC_2                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+ROC_3                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCF_1                           7.800000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+BCF_2                           6.000000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+BCF_3                           4.064000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+BCW_1                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCW_2                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCW_3                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCW_4                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCV_1                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCV_2                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCV_3                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCV_4                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+BCW_5                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+FC_1                            1.247600e+03         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+FC_2                            0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+FC_3                            0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+                                                     UNIT: mm                   
+
+FC_4                            1.000000e+03         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+FC_5                            1.000000e+03         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+FC_6                            1.524000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+FC_7                            8.476000e+02         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: INPUT_PARAMETR
+                                                     IC                         
+                                                     UNIT: mm                   
+
+BCW_6                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION: DNU           
+
+AVM_COMPONENT_ID                baeb4cec-daf1-4595-a TYPE: String               
+                                a5e-c2b05b0abe56     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+Alternative Mass Property Parameters
+------------------------------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+PRO_MP_SOURCE                   GEOMETRY             TYPE: String               
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+MP_DENSITY                                           TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_MASS                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_VOLUME                                    TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_AREA                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_COGX                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_COGY                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_COGZ                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IXX                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IYY                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IZZ                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IXZ                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IYZ                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IXY                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+Reported Mass Property Parameters
+---------------------------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+PRO_MP_MASS                     3.427400e+09         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: kg                   
+
+PRO_MP_VOLUME                   7.822813e+10         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^3                 
+
+PRO_MP_DENSITY                  4.381289e-02         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: kg/mm^3              
+
+PRO_MP_AREA                     4.193508e+08         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2                 
+
+PRO_MP_COGX                     6.068549e+03         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm                   
+
+PRO_MP_COGY                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm                   
+
+PRO_MP_COGZ                     2.974224e+03         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm                   
+
+PRO_MP_IXX                      3.957873e+16         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 kg              
+
+PRO_MP_IYY                      1.865430e+17         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 kg              
+
+PRO_MP_IZZ                      1.587186e+17         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 kg              
+
+PRO_MP_IXZ                      -6.222410e+16        TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 kg              
+
+PRO_MP_IYZ                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 kg              
+
+PRO_MP_IXY                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 kg              
+

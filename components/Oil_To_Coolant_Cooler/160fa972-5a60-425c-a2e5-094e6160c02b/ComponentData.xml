@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="160fa972-5a60-425c-a2e5-094e6160c02b" Name="Oil_To_Coolant_Cooler" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="modelica" xsi:type="q1:ModelicaModel" FilePathWithinResource="" Author="" Notes="" Class="C2M2L_Ext.C2M2L_Delivered_Component_Implementations.Cooling_System.Radiators.Oil_To_Coolant_Cooler" xmlns="">
+    <Parameter Locator="viz_height">
+      <Value ID="id-89939e13-6385-49f9-9d2a-e4bfc6c98754">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-a7115568-4a97-4fcd-aa60-69bf494dd727" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_width">
+      <Value ID="id-55248ecf-1035-4611-bc7b-0dcaec314625">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-04185212-04b2-4ea2-b0ed-1e4c2d7c081e" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_length">
+      <Value ID="id-e502c97c-7d92-40fe-aa07-0a82e0ed716f">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-63e0f6d0-ef53-4c49-8b18-8a0f9e7e2de3" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_01">
+      <Value ID="id-9ef7cdbb-2ab7-4c1f-ad72-c58388d9bdf2">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-28fa0dd5-4ab1-4b3a-830b-44aa45a02eb8" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="ref_core_width">
+      <Value ID="id-525103f0-d73e-47e5-95d0-0b3ba681b331">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-b92c8dbb-526b-4436-b451-1e37ed34a0d3" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="ref_core_length">
+      <Value ID="id-1f171016-10ea-4cb5-9846-3aad3644eaeb">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:DerivedValue" ValueSource="id-003d653a-0df3-4d2c-9636-0902b7764875" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="ref_core_depth">
+      <Value ID="id-87074073-4746-4dcd-9603-245a486222a9">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:DerivedValue" ValueSource="id-538ecdcd-8868-4c1c-9c63-97dd6e25bdd7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="r_shape">
+      <Value ID="id-f84c7c9b-1623-46f1-941f-924ba8289a24">
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:DerivedValue" ValueSource="id-3c1cab2b-f5f4-4354-8798-279eb19a8caa" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pressure_drop_b">
+      <Value ID="id-b0260ad6-38aa-4a79-8090-9f177fbe2157">
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:DerivedValue" ValueSource="id-05a0e561-d1e6-4ec2-9c7b-509425bd8a63" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="pressure_drop_a">
+      <Value ID="id-d7beaa3d-5963-48bd-8948-880f64eb9f7c">
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:DerivedValue" ValueSource="id-06010a11-2786-4cb4-8c57-29303eda2a99" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="mass">
+      <Value ID="id-6e3fb17f-042f-488e-92a7-76aea70ccec1">
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:DerivedValue" ValueSource="id-446b2113-1e66-48bc-8223-6b30efeee955" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="loss_spec_side_b">
+      <Value ID="id-65ede08b-3f4c-4dc6-b775-abe1f75bb7a6">
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:DerivedValue" ValueSource="id-9a4c722d-71ef-486e-b432-d8e7bc5fc94a" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="loss_spec_side_a">
+      <Value ID="id-5e5e606f-1f2a-4094-9eb6-b56ab6166573">
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:DerivedValue" ValueSource="id-c3941a11-1bf1-45fe-ba04-4a0d1c509880" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="J_xxyyzz">
+      <Value ID="id-32c8e878-69ab-418d-8fa0-84f9e6e43956">
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:DerivedValue" ValueSource="id-2d210ad1-234b-4e77-a833-e65accfc3503" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="has_mass">
+      <Value ID="id-0a3e550c-e7b2-4cf9-b86d-67d9d2e20e2a">
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:DerivedValue" ValueSource="id-e39ec55a-c928-4d85-bd80-b8db656e332f" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="flow_spec_side_b">
+      <Value ID="id-9fbdc85c-53ce-4ceb-a237-2859430cedfc">
+        <ValueExpression xmlns:q17="avm" xsi:type="q17:DerivedValue" ValueSource="id-8c307d4b-2e82-4f4e-87b5-abf1d8509b50" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="flow_spec_side_a">
+      <Value ID="id-910aafd5-c1c6-4f8b-bdbd-af60c12d2b4b">
+        <ValueExpression xmlns:q18="avm" xsi:type="q18:DerivedValue" ValueSource="id-06a1e858-be75-4554-bae6-100bf98956a7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="flow_effec_spec">
+      <Value ID="id-17038f2e-b66c-4838-bc5b-45ad0a5092b6">
+        <ValueExpression xmlns:q19="avm" xsi:type="q19:DerivedValue" ValueSource="id-26776841-c240-4cb6-aef8-76f06ab4f215" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="effectiveness_table">
+      <Value ID="id-47c06c8f-cff8-422a-be9d-eba2d028cfb0">
+        <ValueExpression xmlns:q20="avm" xsi:type="q20:DerivedValue" ValueSource="id-ac7cd57a-8517-461d-8301-14af2a020c5b" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="effec_spec">
+      <Value ID="id-85a133b8-379d-40c3-a79f-ba923dc4b28a">
+        <ValueExpression xmlns:q21="avm" xsi:type="q21:DerivedValue" ValueSource="id-25119ae4-b010-47d0-b958-fa89d37c4594" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="core_width">
+      <Value ID="id-6c9ac43a-f8d5-4621-bfa4-71dc09ed5b12">
+        <ValueExpression xmlns:q22="avm" xsi:type="q22:DerivedValue" ValueSource="id-f7375c37-4d91-47cc-a409-e360ec7dce09" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="core_length">
+      <Value ID="id-08d976a2-ffa7-4684-8972-3016751f5ee7">
+        <ValueExpression xmlns:q23="avm" xsi:type="q23:DerivedValue" ValueSource="id-5658257b-1399-483a-94e3-f146c3f02634" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="core_depth">
+      <Value ID="id-0d9b9985-6502-4b42-a9a7-6f6c6eacbf57">
+        <ValueExpression xmlns:q24="avm" xsi:type="q24:DerivedValue" ValueSource="id-2f53248e-bcb6-4f91-afe6-076ca41daf31" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="color">
+      <Value ID="id-71b570b1-73b5-4d02-a89b-2b267cb6e27d">
+        <ValueExpression xmlns:q25="avm" xsi:type="q25:DerivedValue" ValueSource="id-3db516de-eec7-46ee-ac49-05867d605a23" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="c_of_g_position">
+      <Value ID="id-781a2bad-f6df-4a8e-b621-2c498f40dd70">
+        <ValueExpression xmlns:q26="avm" xsi:type="q26:DerivedValue" ValueSource="id-dd045370-f3ab-4e71-b564-0292d42f7668" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="area_ref_hot">
+      <Value ID="id-70e4aa06-4e58-497b-93c3-c591f5bfbe85">
+        <ValueExpression xmlns:q27="avm" xsi:type="q27:DerivedValue" ValueSource="id-1c072e6c-a273-44f9-b0d7-656b0bcc57f6" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="animation">
+      <Value ID="id-c35a2f29-2cfe-4765-8271-8f1a256d843f">
+        <ValueExpression xmlns:q28="avm" xsi:type="q28:DerivedValue" ValueSource="id-4523e44d-b634-4f61-bcad-86244bbae2a6" />
+      </Value>
+    </Parameter>
+    <Connector ID="id-f1388565-82de-4b71-8049-4c0ec2e3998d" PortMap="id-f3f7eb28-f5f6-4bef-b6fc-bdf6ff0ce61c" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-37e62cb8-4b75-4cfd-81c7-4c5f1ae6932e" PortMap="id-e96116e3-7ced-4889-9cfc-673be4742a9b" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-9602e2ac-74c1-4405-8bb5-859e42d5ee3a" PortMap="id-8ac92e8e-ae0b-471a-9c20-789236b5a8da" Name="hot_fluid_out" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q29="avm" xsi:type="q29:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Essotherm650_Const_Prop</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-0ceded2c-cb1d-4374-86d4-bded82935a61" PortMap="id-f10e9dce-bc16-47f2-baa5-a2bc27d49e43" Name="hot_fluid_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q30="avm" xsi:type="q30:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Essotherm650_Const_Prop</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-b7369052-532d-4035-9d29-355170ad6a36" PortMap="id-7e7746e8-2de6-4d2e-a8ed-d1a14db53d0b" Name="cold_fluid_out" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q31="avm" xsi:type="q31:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Connector ID="id-a3932c10-f36b-4096-acec-7afb8a1d3d2a" PortMap="id-41b8f2d8-2075-4922-a4da-6a0a7c3cc217" Name="cold_fluid_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q32="avm" xsi:type="q32:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Connector>
+    <Redeclare Notes="" Type="Package" Locator="Hot_Fluid">
+      <Value>
+        <ValueExpression xmlns:q33="avm" xsi:type="q33:FixedValue">
+          <Value>C2M2L_Ext.Media.Incompressible.Essotherm650_Const_Prop</Value>
+        </ValueExpression>
+      </Value>
+    </Redeclare>
+    <Redeclare Notes="" Type="Package" Locator="Cold_Fluid">
+      <Value>
+        <ValueExpression xmlns:q34="avm" xsi:type="q34:FixedValue">
+          <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+        </ValueExpression>
+      </Value>
+    </Redeclare>
+  </DomainModel>
+  <Property xmlns:q35="avm" xsi:type="q35:PrimitiveProperty" Name="pressure_drop_b" ID="property.id-05a0e561-d1e6-4ec2-9c7b-509425bd8a63" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-05a0e561-d1e6-4ec2-9c7b-509425bd8a63">
+      <ValueExpression xsi:type="q35:FixedValue">
+        <Value>[0,0;0.67,23.7931452;1.34,67.5075852;2.01,124.430031;2.68,191.9688408;3.35,268.7501322;4.02,353.7122688;4.68,446.1058602;5.35,545.4000882;6.02,641.3220594;6.69,740.647512]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q36="avm" xsi:type="q36:PrimitiveProperty" Name="pressure_drop_a" ID="property.id-06010a11-2786-4cb4-8c57-29303eda2a99" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-06010a11-2786-4cb4-8c57-29303eda2a99">
+      <ValueExpression xsi:type="q36:FixedValue">
+        <Value>[0,0;0.67,23.7931452;1.34,67.5075852;2.01,124.430031;2.68,191.9688408;3.35,268.7501322;4.02,353.7122688;4.68,446.1058602;5.35,545.4000882;6.02,641.3220594;6.69,740.647512]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q37="avm" xsi:type="q37:PrimitiveProperty" Name="loss_spec_side_b" ID="property.id-9a4c722d-71ef-486e-b432-d8e7bc5fc94a" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-9a4c722d-71ef-486e-b432-d8e7bc5fc94a">
+      <ValueExpression xsi:type="q37:FixedValue">
+        <Value>C2M2L_Ext.Fluid.Base_Classes.Loss_Spec.deltaP</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q38="avm" xsi:type="q38:PrimitiveProperty" Name="loss_spec_side_a" ID="property.id-c3941a11-1bf1-45fe-ba04-4a0d1c509880" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-c3941a11-1bf1-45fe-ba04-4a0d1c509880">
+      <ValueExpression xsi:type="q38:FixedValue">
+        <Value>C2M2L_Ext.Fluid.Base_Classes.Loss_Spec.deltaP</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q39="avm" xsi:type="q39:PrimitiveProperty" Name="has_mass" ID="property.id-e39ec55a-c928-4d85-bd80-b8db656e332f" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-e39ec55a-c928-4d85-bd80-b8db656e332f">
+      <ValueExpression xsi:type="q39:FixedValue">
+        <Value>true</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q40="avm" xsi:type="q40:PrimitiveProperty" Name="flow_spec_side_b" ID="property.id-8c307d4b-2e82-4f4e-87b5-abf1d8509b50" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-8c307d4b-2e82-4f4e-87b5-abf1d8509b50">
+      <ValueExpression xsi:type="q40:FixedValue">
+        <Value>C2M2L_Ext.Fluid.Base_Classes.Flow_Spec.mass_flow_rate</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q41="avm" xsi:type="q41:PrimitiveProperty" Name="flow_spec_side_a" ID="property.id-06a1e858-be75-4554-bae6-100bf98956a7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-06a1e858-be75-4554-bae6-100bf98956a7">
+      <ValueExpression xsi:type="q41:FixedValue">
+        <Value>C2M2L_Ext.Fluid.Base_Classes.Flow_Spec.mass_flow_rate</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q42="avm" xsi:type="q42:PrimitiveProperty" Name="flow_effec_spec" ID="property.id-26776841-c240-4cb6-aef8-76f06ab4f215" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-26776841-c240-4cb6-aef8-76f06ab4f215">
+      <ValueExpression xsi:type="q42:FixedValue">
+        <Value>C2M2L_Ext.Fluid.Base_Classes.Flow_Spec.mass_flow_rate</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q43="avm" xsi:type="q43:PrimitiveProperty" Name="effectiveness_table" ID="property.id-ac7cd57a-8517-461d-8301-14af2a020c5b" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-ac7cd57a-8517-461d-8301-14af2a020c5b">
+      <ValueExpression xsi:type="q43:FixedValue">
+        <Value>[0.0,0.0,0.1,0.2,0.3;0.0,0.0,0.0,0.0,0.0;0.1,0.0,100,800,1000;0.2,0.0,800,1000,1000;0.3,0.0,1000,1000,1000]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q44="avm" xsi:type="q44:PrimitiveProperty" Name="effec_spec" ID="property.id-25119ae4-b010-47d0-b958-fa89d37c4594" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-25119ae4-b010-47d0-b958-fa89d37c4594">
+      <ValueExpression xsi:type="q44:FixedValue">
+        <Value>C2M2L_Ext.Fluid.Base_Classes.Effec_Spec.Q_per_ITD_Area</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q45="avm" xsi:type="q45:PrimitiveProperty" Name="color" ID="property.id-3db516de-eec7-46ee-ac49-05867d605a23" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-3db516de-eec7-46ee-ac49-05867d605a23">
+      <ValueExpression xsi:type="q45:FixedValue">
+        <Value>{0,128,255}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q46="avm" xsi:type="q46:PrimitiveProperty" Name="animation" ID="property.id-4523e44d-b634-4f61-bcad-86244bbae2a6" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-4523e44d-b634-4f61-bcad-86244bbae2a6">
+      <ValueExpression xsi:type="q46:FixedValue">
+        <Value>world.enableAnimation and world.driveTrainMechanics3D</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q47="avm" xsi:type="q47:PrimitiveProperty" Name="Height" ID="property.id-a7115568-4a97-4fcd-aa60-69bf494dd727" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-a7115568-4a97-4fcd-aa60-69bf494dd727">
+      <ValueExpression xsi:type="q47:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q48="avm" xsi:type="q48:PrimitiveProperty" Name="Width" ID="property.id-04185212-04b2-4ea2-b0ed-1e4c2d7c081e" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-04185212-04b2-4ea2-b0ed-1e4c2d7c081e">
+      <ValueExpression xsi:type="q48:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q49="avm" xsi:type="q49:PrimitiveProperty" Name="Length" ID="property.id-63e0f6d0-ef53-4c49-8b18-8a0f9e7e2de3" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-63e0f6d0-ef53-4c49-8b18-8a0f9e7e2de3">
+      <ValueExpression xsi:type="q49:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q50="avm" xsi:type="q50:PrimitiveProperty" Name="transform_mount_01" ID="property.id-28fa0dd5-4ab1-4b3a-830b-44aa45a02eb8" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-28fa0dd5-4ab1-4b3a-830b-44aa45a02eb8">
+      <ValueExpression xsi:type="q50:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q51="avm" xsi:type="q51:PrimitiveProperty" Name="ref_core_width" ID="property.id-b92c8dbb-526b-4436-b451-1e37ed34a0d3" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-b92c8dbb-526b-4436-b451-1e37ed34a0d3">
+      <ValueExpression xsi:type="q51:FixedValue">
+        <Value>0.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q52="avm" xsi:type="q52:PrimitiveProperty" Name="ref_core_length" ID="property.id-003d653a-0df3-4d2c-9636-0902b7764875" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-003d653a-0df3-4d2c-9636-0902b7764875">
+      <ValueExpression xsi:type="q52:FixedValue">
+        <Value>0.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q53="avm" xsi:type="q53:PrimitiveProperty" Name="ref_core_depth" ID="property.id-538ecdcd-8868-4c1c-9c63-97dd6e25bdd7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-538ecdcd-8868-4c1c-9c63-97dd6e25bdd7">
+      <ValueExpression xsi:type="q53:FixedValue">
+        <Value>0.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q54="avm" xsi:type="q54:PrimitiveProperty" Name="r_shape" ID="property.id-3c1cab2b-f5f4-4354-8798-279eb19a8caa" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-3c1cab2b-f5f4-4354-8798-279eb19a8caa">
+      <ValueExpression xsi:type="q54:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q55="avm" xsi:type="q55:PrimitiveProperty" Name="mass" ID="property.id-446b2113-1e66-48bc-8223-6b30efeee955" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-446b2113-1e66-48bc-8223-6b30efeee955">
+      <ValueExpression xsi:type="q55:FixedValue">
+        <Value>1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q56="avm" xsi:type="q56:PrimitiveProperty" Name="J_xxyyzz" ID="property.id-2d210ad1-234b-4e77-a833-e65accfc3503" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-2d210ad1-234b-4e77-a833-e65accfc3503">
+      <ValueExpression xsi:type="q56:FixedValue">
+        <Value>{0.001,0.001,0.001,0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q57="avm" xsi:type="q57:PrimitiveProperty" Name="core_width" ID="property.id-f7375c37-4d91-47cc-a409-e360ec7dce09" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f7375c37-4d91-47cc-a409-e360ec7dce09">
+      <ValueExpression xsi:type="q57:FixedValue">
+        <Value>0.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q58="avm" xsi:type="q58:PrimitiveProperty" Name="core_length" ID="property.id-5658257b-1399-483a-94e3-f146c3f02634" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5658257b-1399-483a-94e3-f146c3f02634">
+      <ValueExpression xsi:type="q58:FixedValue">
+        <Value>0.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q59="avm" xsi:type="q59:PrimitiveProperty" Name="core_depth" ID="property.id-2f53248e-bcb6-4f91-afe6-076ca41daf31" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-2f53248e-bcb6-4f91-afe6-076ca41daf31">
+      <ValueExpression xsi:type="q59:FixedValue">
+        <Value>0.25</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q60="avm" xsi:type="q60:PrimitiveProperty" Name="c_of_g_position" ID="property.id-dd045370-f3ab-4e71-b564-0292d42f7668" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-dd045370-f3ab-4e71-b564-0292d42f7668">
+      <ValueExpression xsi:type="q60:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q61="avm" xsi:type="q61:PrimitiveProperty" Name="area_ref_hot" ID="property.id-1c072e6c-a273-44f9-b0d7-656b0bcc57f6" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-1c072e6c-a273-44f9-b0d7-656b0bcc57f6">
+      <ValueExpression xsi:type="q61:FixedValue">
+        <Value>1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Connector ConnectorComposition="" ID="id-5d8353fd-83e3-45f0-a3b1-a1d259aa7e60" ApplyJoinData="" Notes="" Name="origin" Definition="" xmlns="">
+    <Role xmlns:q62="modelica" xsi:type="q62:Connector" ID="id-e96116e3-7ced-4889-9cfc-673be4742a9b" PortMap="" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-4712579f-b4ae-4456-ae47-6c3766474581" ApplyJoinData="" Notes="" Name="mount_01" Definition="" xmlns="">
+    <Role xmlns:q63="modelica" xsi:type="q63:Connector" ID="id-f3f7eb28-f5f6-4bef-b6fc-bdf6ff0ce61c" PortMap="" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-c20ccafc-38f9-4bc7-9b52-5791eb195439" ApplyJoinData="" Notes="" Name="hot_fluid_out" Definition="" xmlns="">
+    <Role xmlns:q64="modelica" xsi:type="q64:Connector" ID="id-8ac92e8e-ae0b-471a-9c20-789236b5a8da" PortMap="" Name="hot_fluid_out" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q65="avm" xsi:type="q65:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Essotherm650_Const_Prop</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-3be40705-194b-4caf-b630-f114c6e056d5" ApplyJoinData="" Notes="" Name="hot_fluid_in" Definition="" xmlns="">
+    <Role xmlns:q66="modelica" xsi:type="q66:Connector" ID="id-f10e9dce-bc16-47f2-baa5-a2bc27d49e43" PortMap="" Name="hot_fluid_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q67="avm" xsi:type="q67:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Essotherm650_Const_Prop</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-cb1824ab-a89c-4166-92c1-afa54ede5961" ApplyJoinData="" Notes="" Name="cold_fluid_out" Definition="" xmlns="">
+    <Role xmlns:q68="modelica" xsi:type="q68:Connector" ID="id-7e7746e8-2de6-4d2e-a8ed-d1a14db53d0b" PortMap="" Name="cold_fluid_out" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_b">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q69="avm" xsi:type="q69:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-936961ca-f8ab-40f8-8897-ee9839b33222" ApplyJoinData="" Notes="" Name="cold_fluid_in" Definition="" xmlns="">
+    <Role xmlns:q70="modelica" xsi:type="q70:Connector" ID="id-41b8f2d8-2075-4922-a4da-6a0a7c3cc217" PortMap="" Name="cold_fluid_in" Notes="" Definition="" Locator="" Class="Modelica.Fluid.Interfaces.FluidPort_a">
+      <Redeclare Notes="" Type="Package" Locator="Medium">
+        <Value>
+          <ValueExpression xmlns:q71="avm" xsi:type="q71:FixedValue">
+            <Value>C2M2L_Ext.Media.Incompressible.Water_Incompressible_Constant</Value>
+          </ValueExpression>
+        </Value>
+      </Redeclare>
+    </Role>
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

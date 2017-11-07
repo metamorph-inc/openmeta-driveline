@@ -1,0 +1,11 @@
+>>>>> STARTING PART Update <<<<<<<
+.. Number of parts to update : 22
+.. Parameters to Update : 2
+Name	Type	Value
+MASTER_ASSEMBLY	String	E137_FLAT_3_ROOFFLAT_H1_GUS
+ 	 	 
+Updating : e137_zone_floor_h1_gus.prt
+.. Searching for Parameter MASTER_ASSEMBLY
+.. updating MASTER_ASSEMBLY to E137_FLAT_3_ROOFFLAT_H1_GUS
+.. Searching for Parameter  
+.. adding   =  

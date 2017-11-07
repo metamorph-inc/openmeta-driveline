@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="92aa80e3-59a9-42c1-b14b-27fa5cd19ec8" Name="Hydraulic_Accumulator" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="modelica" xsi:type="q1:ModelicaModel" FilePathWithinResource="" Author="" Notes="" Class="C2M2L_Ext.C2M2L_Delivered_Component_Implementations.Hydraulic.Hydraulic_Accumulator" xmlns="">
+    <Parameter Locator="mass">
+      <Value ID="id-3a42a34f-b3c8-4a8d-b965-aab922dd46cc">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-cacdc266-3a38-4d60-9616-c55cf9b78fb7" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="k">
+      <Value ID="id-af120ecf-5a94-444f-a68c-3723883f8f17">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-57ad1aa6-6a42-4827-ab6d-8621f5cd88d6" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="J_xxyyzz">
+      <Value ID="id-41652579-3667-4b59-8001-0ceec73a85eb">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-cdb85e7c-ab65-4627-a5fa-ffcebea0d512" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="hydraulic_fluid_accumulated_start">
+      <Value ID="id-02e4b1a9-880e-4485-bbbf-73edb2a803f6">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-75288bc2-f7b9-486f-b867-a7039c6f8e53" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="has_mass">
+      <Value ID="id-d34169bf-a0ce-47ac-82ac-5140e59088f8">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-5d4e698d-2ba8-4475-afad-ca933eff48af" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="empty_pressure">
+      <Value ID="id-13a2bec3-fb45-499c-8958-cff7cc2c3bde">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:DerivedValue" ValueSource="id-0ebde49d-832e-41db-87b6-774a569fd021" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="color">
+      <Value ID="id-7f3c6cbe-1db8-48fc-9413-e1266019b798">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:DerivedValue" ValueSource="id-b8da8b42-4d2f-4746-84cb-dbd2d7d1a02f" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="c_of_g_position">
+      <Value ID="id-1175c836-4b8d-4bbd-a5ec-40ce5b4eaaf5">
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:DerivedValue" ValueSource="id-92ec0146-ab37-4d89-b994-40f4739d7c1b" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="animation">
+      <Value ID="id-79938585-7c1a-4022-b2e5-63a0ebd5cf4d">
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:DerivedValue" ValueSource="id-53655f98-396c-45d5-9aea-0de3dbad9902" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="viz_height">
+      <Value ID="id-a414a884-ef89-4672-8bd4-e6cb482106a2">
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:DerivedValue" ValueSource="id-ce54d5f0-9609-4477-85d7-bcbaca14dc2c" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_width">
+      <Value ID="id-934cbb8a-7982-4fe0-8e00-677262a0e04e">
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:DerivedValue" ValueSource="id-fb6999a9-41e8-4279-90d7-0e97d702b26d" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="vis_length">
+      <Value ID="id-8f794df2-6d05-4a9d-a359-6453a9fab73d">
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:DerivedValue" ValueSource="id-1640ec1b-9b0d-4376-9ae1-0cc7ae5914ef" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="transform_mount_01">
+      <Value ID="id-9cd9dbbf-c338-4693-bafa-39527499b399">
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:DerivedValue" ValueSource="id-f111d439-fc1f-49e3-a8e9-8fb44b9538b4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="total_volume">
+      <Value ID="id-9b2e57d2-67d1-4d5e-a8e4-526c80c0e5a8">
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:DerivedValue" ValueSource="id-753c7f1c-f8ce-4d5d-8407-41b08d7cece4" />
+      </Value>
+    </Parameter>
+    <Parameter Locator="r_shape">
+      <Value ID="id-d188ff29-5ce2-4925-8efa-ccae76502ca2">
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:DerivedValue" ValueSource="id-3aee0e4c-b254-421f-b301-c3a7234b9f30" />
+      </Value>
+    </Parameter>
+    <Connector ID="id-dd75a885-2812-46e3-8f42-5a3f739b5d0f" PortMap="id-658872e2-fe76-497c-9a80-b54b4969b37e" Name="hyd" Notes="" Definition="" Locator="" Class="C2M2L_Ext.Fluid.Hydraulics_Simple.Interfaces.Hydraulic_Port" />
+    <Connector ID="id-40518964-ae68-40a2-937a-235c30c22cd1" PortMap="id-bc2287f0-73f1-4386-bb2c-dd6554fd70bb" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-7d2dad85-6a03-49a6-b32b-4282c7c30a05" PortMap="id-330ad822-2e83-4a46-86e0-e56d3251a24b" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </DomainModel>
+  <Property xmlns:q17="avm" xsi:type="q17:PrimitiveProperty" Name="Height" ID="property.id-ce54d5f0-9609-4477-85d7-bcbaca14dc2c" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-ce54d5f0-9609-4477-85d7-bcbaca14dc2c">
+      <ValueExpression xsi:type="q17:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q18="avm" xsi:type="q18:PrimitiveProperty" Name="Width" ID="property.id-fb6999a9-41e8-4279-90d7-0e97d702b26d" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-fb6999a9-41e8-4279-90d7-0e97d702b26d">
+      <ValueExpression xsi:type="q18:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q19="avm" xsi:type="q19:PrimitiveProperty" Name="Length" ID="property.id-1640ec1b-9b0d-4376-9ae1-0cc7ae5914ef" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-1640ec1b-9b0d-4376-9ae1-0cc7ae5914ef">
+      <ValueExpression xsi:type="q19:FixedValue">
+        <Value>0.1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q20="avm" xsi:type="q20:PrimitiveProperty" Name="transform_mount_01" ID="property.id-f111d439-fc1f-49e3-a8e9-8fb44b9538b4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-f111d439-fc1f-49e3-a8e9-8fb44b9538b4">
+      <ValueExpression xsi:type="q20:FixedValue">
+        <Value>[0,0,0;1,0,0;0,1,0]</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q21="avm" xsi:type="q21:PrimitiveProperty" Name="total_volume" ID="property.id-753c7f1c-f8ce-4d5d-8407-41b08d7cece4" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-753c7f1c-f8ce-4d5d-8407-41b08d7cece4">
+      <ValueExpression xsi:type="q21:FixedValue">
+        <Value>10</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q22="avm" xsi:type="q22:PrimitiveProperty" Name="r_shape" ID="property.id-3aee0e4c-b254-421f-b301-c3a7234b9f30" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-3aee0e4c-b254-421f-b301-c3a7234b9f30">
+      <ValueExpression xsi:type="q22:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q23="avm" xsi:type="q23:PrimitiveProperty" Name="mass" ID="property.id-cacdc266-3a38-4d60-9616-c55cf9b78fb7" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-cacdc266-3a38-4d60-9616-c55cf9b78fb7">
+      <ValueExpression xsi:type="q23:FixedValue">
+        <Value>1</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q24="avm" xsi:type="q24:PrimitiveProperty" Name="J_xxyyzz" ID="property.id-cdb85e7c-ab65-4627-a5fa-ffcebea0d512" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-cdb85e7c-ab65-4627-a5fa-ffcebea0d512">
+      <ValueExpression xsi:type="q24:FixedValue">
+        <Value>{0.001,0.001,0.001,0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q25="avm" xsi:type="q25:PrimitiveProperty" Name="hydraulic_fluid_accumulated_start" ID="property.id-75288bc2-f7b9-486f-b867-a7039c6f8e53" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-75288bc2-f7b9-486f-b867-a7039c6f8e53">
+      <ValueExpression xsi:type="q25:FixedValue">
+        <Value>total_volume / 2</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q26="avm" xsi:type="q26:PrimitiveProperty" Name="empty_pressure" ID="property.id-0ebde49d-832e-41db-87b6-774a569fd021" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-0ebde49d-832e-41db-87b6-774a569fd021">
+      <ValueExpression xsi:type="q26:FixedValue">
+        <Value>2000000.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q27="avm" xsi:type="q27:PrimitiveProperty" Name="c_of_g_position" ID="property.id-92ec0146-ab37-4d89-b994-40f4739d7c1b" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-92ec0146-ab37-4d89-b994-40f4739d7c1b">
+      <ValueExpression xsi:type="q27:FixedValue">
+        <Value>{0,0,0}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q28="avm" xsi:type="q28:PrimitiveProperty" Name="k" ID="property.id-57ad1aa6-6a42-4827-ab6d-8621f5cd88d6" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-57ad1aa6-6a42-4827-ab6d-8621f5cd88d6">
+      <ValueExpression xsi:type="q28:FixedValue">
+        <Value>0.000000001</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q29="avm" xsi:type="q29:PrimitiveProperty" Name="has_mass" ID="property.id-5d4e698d-2ba8-4475-afad-ca933eff48af" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-5d4e698d-2ba8-4475-afad-ca933eff48af">
+      <ValueExpression xsi:type="q29:FixedValue">
+        <Value>true</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q30="avm" xsi:type="q30:PrimitiveProperty" Name="color" ID="property.id-b8da8b42-4d2f-4746-84cb-dbd2d7d1a02f" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-b8da8b42-4d2f-4746-84cb-dbd2d7d1a02f">
+      <ValueExpression xsi:type="q30:FixedValue">
+        <Value>{0,128,255}</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q31="avm" xsi:type="q31:PrimitiveProperty" Name="animation" ID="property.id-53655f98-396c-45d5-9aea-0de3dbad9902" xmlns="">
+    <Value DimensionType="Scalar" Dimensions="" DataType="String" ID="id-53655f98-396c-45d5-9aea-0de3dbad9902">
+      <ValueExpression xsi:type="q31:FixedValue">
+        <Value>world.enableAnimation and world.driveTrainMechanics3D</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Connector ConnectorComposition="" ID="id-1347746a-7c41-45b4-8e8e-9f3278821fda" ApplyJoinData="" Notes="" Name="hyd" Definition="" xmlns="">
+    <Role xmlns:q32="modelica" xsi:type="q32:Connector" ID="id-658872e2-fe76-497c-9a80-b54b4969b37e" PortMap="" Name="hyd" Notes="" Definition="" Locator="" Class="C2M2L_Ext.Fluid.Hydraulics_Simple.Interfaces.Hydraulic_Port" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-ba783fe9-9d9a-47ac-8822-dc510f585a53" ApplyJoinData="" Notes="" Name="origin" Definition="" xmlns="">
+    <Role xmlns:q33="modelica" xsi:type="q33:Connector" ID="id-330ad822-2e83-4a46-86e0-e56d3251a24b" PortMap="" Name="origin" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-6f7a442c-9b07-47a2-a29f-4b0595115f7d" ApplyJoinData="" Notes="" Name="mount_01" Definition="" xmlns="">
+    <Role xmlns:q34="modelica" xsi:type="q34:Connector" ID="id-bc2287f0-73f1-4386-bb2c-dd6554fd70bb" PortMap="" Name="mount_01" Notes="" Definition="" Locator="" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>
